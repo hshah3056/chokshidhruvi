@@ -53,9 +53,9 @@
 </div>
 <!-- BUY TEMPLATE
    ================================================== -->
-<div class="buy-theme alt-font d-none d-lg-inline-block"><a href="https://themeforest.net/item/habitro-nutrition-health-and-diet-html-template/35917031" target="_blank"><i class="fas fa-cart-plus"></i><span>Buy Template</span></a></div>
+{{--<div class="buy-theme alt-font d-none d-lg-inline-block"><a href="https://themeforest.net/item/habitro-nutrition-health-and-diet-html-template/35917031" target="_blank"><i class="fas fa-cart-plus"></i><span>Buy Template</span></a></div>--}}
 
-<div class="all-demo alt-font d-none d-lg-inline-block"><a href="https://themeforest.net/user/websitedesigntemplates" target="_blank"><i class="far fa-envelope"></i><span>Quick Question?</span></a></div>
+{{--<div class="all-demo alt-font d-none d-lg-inline-block"><a href="https://themeforest.net/user/websitedesigntemplates" target="_blank"><i class="far fa-envelope"></i><span>Quick Question?</span></a></div>--}}
 
 <!-- SCROLL TO TOP
 ================================================== -->

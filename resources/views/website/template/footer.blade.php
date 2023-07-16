@@ -108,7 +108,9 @@
                     <p class="text-white d-inline-block font-weight-600 mb-0 align-middle me-3">Follow Us :</p>
                     <ul class="footer-social-style1">
                         <li>
-                            <a href="https://www.facebook.com/Dhruvi.NutritionCoach?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/Dhruvi.NutritionCoach?mibextid=LQQJ4d" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
                         </li>
                             {{--<li>--}}
                                 {{--<a href="#!"><i class="fab fa-twitter"></i></a>--}}
@@ -117,7 +119,14 @@
                             {{--<a href="#!"><i class="fab fa-youtube"></i></a>--}}
                         {{--</li>--}}
                         <li>
-                            <a href="https://www.linkedin.com/in/dhruvi-nutritionist-40123b157"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/in/dhruvi-nutritionist-40123b157" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/message/PROLKCXIVLQPI1" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>

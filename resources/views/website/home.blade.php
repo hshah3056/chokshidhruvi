@@ -47,7 +47,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="ps-xxl-2-3">
-                    <h6 class="display-20 display-sm-15 font-weight-400 mb-3">HI, I AM DHRUVI, A <span class="fw-bolder">QUALIFIED CLINICAL DIETITIAN</span> & <span class="fw-bolder">NUTRITION COUNSELLOR. </span></h6>
+                    <h6 class="display-20 display-sm-15 font-weight-400 mb-3">HI, I AM DHRUVI, Nutripreneur A <span class="fw-bolder">QUALIFIED CLINICAL DIETITIAN</span> & <span class="fw-bolder">NUTRITION COUNSELLOR. </span></h6>
                     <p class="text-secondary lead title-font">Welcome to my world of Nutrition!</p>
                     <p>
                         I believe in <b>Rise above with balanced self-care</b>. Let's reconnect with your wellness through food, which is the information we use to communicate with our bodies. As your Personal Nutritionist, I am here to help you cut through the noise and navigate your way to genuine, healthful habits.
@@ -69,7 +69,7 @@
                                     <img src="/website-assets/img/icons/icon-19.png" alt="...">
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h4 class="mb-0 h5">Personalized Exercises Plan</h4>
+                                    <h4 class="mb-0 h5">Personalized exercise Plan</h4>
                                 </div>
                             </div>
                         </div>
