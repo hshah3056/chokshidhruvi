@@ -203,7 +203,7 @@
                     <div class="icon-box">
                         <img src="/website-assets/img/icons/old-age.png" alt="...">
                     </div>
-                    <h3 class="h4 mb-3"><a href="javascript:void(0);">HOME-MAKERS/ELDERY/OLD AGE PEOPLE</a></h3>
+                    <h3 class="h4 mb-3"><a href="javascript:void(0);">HOME-MAKERS/ELDERLY/OLD AGE PEOPLE</a></h3>
                     <p>Our Tailored Nutrition Packages for Home - makers and Elderly Individuals offer delicious, nutrient-dense options that cater
                         to your unique dietary needs and preferences.</p>
                     {{--<a href="healthy-daily-life.html" class="link-btn">Read More</a>--}}
@@ -215,7 +215,7 @@
                     <div class="icon-box">
                         <img src="/website-assets/img/icons/baby-food.png" alt="...">
                     </div>
-                    <h3 class="h4 mb-3"><a href="javascript:void(0);">INFANT/ KIDS NUTRITION</a></h3>
+                    <h3 class="h4 mb-3"><a href="javascript:void(0);">INFANT/ KID’s NUTRITION</a></h3>
                     <p>Give your little ones the best start in life with our Nutrition Packages, packed with vitamins and minerals to support healthy growth and development.</p>
                     {{--<a href="support-motivation.html" class="link-btn">Read More</a>--}}
                 </div>
