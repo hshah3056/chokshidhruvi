@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('subject');
             $table->string('contact_number');
             $table->enum('package',['1','3','6','12']);
-            $table->string('contact_number');
+            $table->string('message');
             $table->timestamps();
         });
     }
