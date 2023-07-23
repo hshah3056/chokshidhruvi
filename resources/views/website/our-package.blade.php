@@ -31,7 +31,7 @@
         <div class="container">
             <div class="section-heading">
                 {{--<span class="text-secondary title-font display-25 display-md-23 d-block mb-1">Our pricing plans</span>--}}
-                <h2>OUR NUTRITION <span class="fw-bolder"> PACKAGES</span></h2>  
+                <h2>OUR NUTRITION <span class="fw-bolder"> PACKAGES</span></h2>
                 {{--<p class="mb-0 w-md-80 w-lg-70 w-xl-50 mx-auto">We connect buyers and sellers of natural, organic, environmentally sound products. We find the best suppliers and makers of natural and organic products.</p>--}}
             </div>
             <div class="row g-xl-5 mt-n1-9">
@@ -47,13 +47,14 @@
                         </div>
                         <div class="card-body">
                             <ul class="list-style1">
-                                <li>1:1 CONSULTATION</li>
-                                <li>CUSTOMISED MEAL PLANS</li>
-                                <li>EXERCISE GUIDE</li>
-                                <li>4 SESSIONS WITH WEEKLY FOLLOW UP </li>
+                                <li>1:1 Nutritional Therapy Session</li>
+                                <li>Behavioural Modification Strategies & Nutrition Resources</li>
+                                <li>Personalised Nutritional Prescription (Meal plans)</li>
+                                <li>Exercise Guide</li>
+                                <li>4 Sessions with Constant Support & Follow ups</li>
                             </ul>
                             {{--<div class="text-center">--}}
-                                {{--<a class="butn secondary" href="contact.html">Choose Plan</a>--}}
+                            {{--<a class="butn secondary" href="contact.html">Choose Plan</a>--}}
                             {{--</div>--}}
                         </div>
                     </div>
@@ -71,13 +72,14 @@
                         </div>
                         <div class="card-body">
                             <ul class="list-style1">
-                                <li>1:1 CONSULTATION </li>
-                                <li>CUSTOMISED MEAL PLANS</li>
-                                <li>EXERCISE GUIDE</li>
-                                <li>12 SESSIONS WITH WEEKLY FOLLOW UP </li>
+                                <li>1:1 Nutritional Therapy Session</li>
+                                <li>Behavioural Modification Strategies & Nutrition Resources</li>
+                                <li>Personalised Nutritional Prescription (Meal plans)</li>
+                                <li>Exercise Guide</li>
+                                <li>12 Sessions with Constant Support & Follow ups </li>
                             </ul>
                             {{--<div class="text-center">--}}
-                                {{--<a class="butn" href="contact.html">Choose Plan</a>--}}
+                            {{--<a class="butn" href="contact.html">Choose Plan</a>--}}
                             {{--</div>--}}
                         </div>
                     </div>
@@ -94,13 +96,14 @@
                         </div>
                         <div class="card-body">
                             <ul class="list-style1">
-                                <li>1:1 CONSULTATION </li>
-                                <li>CUSTOMISED MEAL PLANS</li>
+                                <li>1:1 Nutritional Therapy Session</li>
+                                <li>Behavioural Modification Strategies & Nutrition Resources</li>
+                                <li>Personalised Nutritional Prescription (Meal plan)</li>
                                 <li>EXERCISE GUIDE</li>
-                                <li>24 SESSIONS WITH WEEKLY FOLLOW UP </li>
+                                <li>24 Sessions with Constant Support & Follow ups</li>
                             </ul>
                             {{--<div class="text-center">--}}
-                                {{--<a class="butn secondary" href="contact.html">Choose Plan</a>--}}
+                            {{--<a class="butn secondary" href="contact.html">Choose Plan</a>--}}
                             {{--</div>--}}
                         </div>
                     </div>
@@ -117,14 +120,12 @@
                         </div>
                         <div class="card-body">
                             <ul class="list-style1">
-                                <li>1:1 CONSULTATION </li>
-                                <li>CUSTOMISED MEAL PLANS</li>
+                                <li>1:1 Nutritional Therapy Session</li>
+                                <li>Behavioural Modification Strategies & Nutrition Resources</li>
+                                <li>Personalised Nutritional Prescription (Meal plan)</li>
                                 <li>EXERCISE GUIDE</li>
-                                <li>48 SESSIONS WITH WEEKLY FOLLOW UP </li>
+                                <li>48 Sessions with Constant Support & Follow ups</li>
                             </ul>
-                            {{--<div class="text-center">--}}
-                                {{--<a class="butn secondary" href="contact.html">Choose Plan</a>--}}
-                            {{--</div>--}}
                         </div>
                     </div>
                 </div>

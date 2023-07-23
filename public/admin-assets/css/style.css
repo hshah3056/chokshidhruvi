@@ -1,0 +1,504 @@
+/*================================================================================
+	Item Name: Ingenious Direct Selling Software User Panel Custom Style
+	Author: Tymk Software
+================================================================================
+
+/* General */
+.badge {
+    padding: 0.45em .4em;
+    font-weight: 600;
+}
+
+/* Login Page */
+
+html body.bg-full-screen-image {
+    background: url(/admin-assets/images/backgrounds/emp-login-bg.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/* Left Sidebar */
+.navbar-header .navbar-brand .brand-logo {
+    width: 150px;
+    margin: auto;
+}
+
+/* Dashboard */
+.dashboard-icon {
+    font-size: 8rem !important;
+}
+
+a.btn:hover {
+    color: #fff !important;
+}
+a.btn-white:hover {
+    color: inherit !important;
+}
+
+/* BootStrap 3.7 Pagination */
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.pagination > li {
+    display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #6D00A7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    z-index: 2;
+    color: #6D00A7;
+    background-color: #eee;
+    border-color: #ddd;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #6D00A7;
+    border-color: #6D00A7;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.pagination-lg > li > a,
+.pagination-lg > li > span {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.pagination-sm > li > a,
+.pagination-sm > li > span {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/* =============
+   Print css
+============= */
+
+@media print {
+    @page    {
+        margin: .2cm .1cm;
+    }
+    *,
+    *:before,enter code here
+    *:after {
+        color: #000 !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+    select {
+        background: #fff !important;
+    }
+    .main-menu, .header-navbar, .btn-print, .content-header-title {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    #invoice-template {
+        border: 1px solid #dedede;
+        padding: 4rem 2rem 2rem ;
+    }
+    .content {
+        margin: 0 !important;
+        padding-top: 0;
+    }
+    .content-page {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .navbar {
+        display: none;
+    }
+    .btn > .caret,
+    .dropup > .btn > .caret {
+        border-top-color: #000 !important;
+    }
+    .label {
+        border: 1px solid #000;
+    }
+    .table {
+        border-collapse: collapse !important;
+    }
+    .table td,
+    .table th {
+        background-color: #fff !important;
+    }
+    .table-bordered th,
+    .table-bordered td {
+        border: 1px solid #ddd !important;
+    }
+}
+
+/* Radio */
+.radio,.checkbox {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 0
+}
+
+.radio label,.checkbox label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    min-width: 17px;
+    min-height: 17px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0
+}
+
+.radio label:before,.checkbox label:before {
+    -webkit-box-sizing: inherit;
+    box-sizing: border-box;
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #d7dcdf
+}
+
+.radio label {
+    margin-bottom: 6px
+}
+
+.radio label:before {
+    bottom: 2.5px;
+    border-radius: 99px;
+    -webkit-transition: border .3s 0s cubic-bezier(.455,.03,.215,1.33);
+    transition: border .3s 0s cubic-bezier(.455,.03,.215,1.33)
+}
+
+.radio input[type=radio]:checked+label:before {
+    border-width: 5px
+}
+
+.radio input[type=radio]:focus+label {
+    color: #373e43
+}
+
+.radio input[type=radio]:focus+label:before {
+    background-color: #eaecee
+}
+
+.radio input[type=radio] {
+    opacity: 0;
+    width: 0;
+    height: 0
+}
+
+.radio input[type=radio][disabled]+label {
+    opacity: .65
+}
+
+.radio.radio-success input[type=radio]:checked+label:before {
+    border-color: #007be8
+}
+
+.radio.radio-primary input[type=radio]:checked+label:before {
+    border-color: #007be8
+}
+
+.radio.radio-info input[type=radio]:checked+label:before {
+    border-color: #47525e
+}
+
+.radio.radio-warning input[type=radio]:checked+label:before {
+    border-color: #fed76e
+}
+
+.radio.radio-danger input[type=radio]:checked+label:before {
+    border-color: #ea2c54
+}
+
+.radio.radio-complete input[type=radio]:checked+label:before {
+    border-color: #00e8ba
+}
+
+.checkbox+.checkbox,.radio+.radio {
+    margin-top: -5px
+}
+
+.checkbox input[type=radio][disabled]+label:after {
+    background-color: #eaecee
+}
+
+.checkbox label {
+    transition: border .2s linear 0s,color .2s linear 0s
+}
+
+.checkbox label:before {
+    top: 1.4px;
+    border-radius: 3px;
+    transition: border .2s linear 0s,color .2s linear 0s
+}
+
+.checkbox label::after {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 3.5px;
+    top: 0;
+    font-size: 11px;
+    transition: border .2s linear 0s,color .2s linear 0s
+}
+
+.checkbox label:after {
+    border-radius: 3px
+}
+
+.checkbox input[type=checkbox] {
+    opacity: 0;
+    width: 5px;
+    height: 5px;
+}
+
+.checkbox.checkbox-circle label:after {
+    border-radius: 99px
+}
+
+.checkbox.checkbox-circle label:before {
+    border-radius: 99px
+}
+
+.checkbox input[type=checkbox]:checked+label:before {
+    border-width: 8.5px
+}
+
+.checkbox input[type=checkbox]:checked+label::after {
+    font-family: 'Line Awesome Free';
+    font-weight: 900;
+    content: "\f00c";
+    color: #fff
+}
+
+.checkbox input[type=checkbox]:focus+label {
+    color: #373e43
+}
+
+.checkbox input[type=checkbox]:focus+label:before {
+    background-color: #eaecee
+}
+
+.checkbox input[type=checkbox][disabled]+label {
+    opacity: .65
+}
+
+.checkbox input[type=checkbox][disabled]+label:before {
+    background-color: #eceff3
+}
+
+.checkbox.right label {
+    margin-right: 35px;
+    padding-left: 0!important
+}
+
+.checkbox.right label:before {
+    right: -35px;
+    left: auto
+}
+
+.checkbox.right input[type=checkbox]:checked+label {
+    position: relative
+}
+
+body.rtl .checkbox label::after {
+    left: -1.2px
+}
+
+.checkbox.check-success input[type=checkbox]:checked+label:before {
+    border-color: #16800f
+}
+
+.checkbox.check-primary input[type=checkbox]:checked+label:before {
+    border-color: #007be8
+}
+
+.checkbox.check-complete input[type=checkbox]:checked+label:before {
+    border-color: #00e8ba
+}
+
+.checkbox.check-warning input[type=checkbox]:checked+label:before {
+    border-color: #fed76e
+}
+
+.checkbox.check-danger input[type=checkbox]:checked+label:before {
+    border-color: #ea2c54
+}
+
+.checkbox.check-info input[type=checkbox]:checked+label:before {
+    border-color: #47525e
+}
+
+.checkbox.check-success input[type=checkbox]:checked+label::after,.checkbox.check-primary input[type=checkbox]:checked+label::after,.checkbox.check-complete input[type=checkbox]:checked+label::after,.checkbox.check-warning input[type=checkbox]:checked+label::after,.checkbox.check-danger input[type=checkbox]:checked+label::after,.checkbox.check-info input[type=checkbox]:checked+label::after {
+    color: #fff
+}
+
+
+@media only screen and (max-width: 450px)  {
+
+    .radio label {
+        padding-left: 20px;
+        margin-right: 0;
+    }
+
+}
+
+.ing-spinner {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding: 0;
+    border-radius: 100%;
+    border: 6px solid;
+    border-top-color: #005a9c;
+    border-bottom-color: #005a9c;
+    border-left-color: rgba(0, 90, 156, .15);
+    border-right-color: rgba(0, 90, 156, .15);
+    animation: spinner .8s ease-in-out infinite alternate
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.label-back{
+    padding-top: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+}
+
+/* Product & Shopping Section */
+.product .card-body {
+    padding: 0.8rem;
+}
+.product li.list-group-item {
+    padding:0.5rem;
+}
+
+.product-detail li.list-group-item {
+    padding:0.5rem;
+}
+.product-detail .zoom {
+    transition: transform .2s; /* Animation */
+}
+.product-detail .zoom:hover {
+    transform: scale(1.3);
+}

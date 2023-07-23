@@ -19,4 +19,9 @@ class HomeController extends Controller
     public function ourPackages(){
         return view('website.our-package');
     }
+
+    public function contact(){
+
+        return view('website.contact');
+    }
 }

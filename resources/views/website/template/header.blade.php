@@ -243,7 +243,9 @@
                         <div class="attr-nav align-items-lg-center ms-auto">
                             <ul>
                                 {{--<li class="search"><a href="#!"><i class="fas fa-search"></i></a></li>--}}
-                                <li class="d-none d-xl-inline-block"><a href="javascript:void(0);" class="butn white-hover sm">Get A Quote</a></li>
+                                <li class="d-none d-xl-inline-block">
+                                    <a href="{{route('website-contact')}}" class="butn white-hover sm">Get A Quote</a>
+                                </li>
                             </ul>
                         </div>
                         <!-- end attribute navigation -->
