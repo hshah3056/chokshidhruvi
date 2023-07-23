@@ -47,7 +47,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="ps-xxl-2-3">
-                    <h6 class="display-20 display-sm-15 font-weight-400 mb-3">HI, I AM DHRUVI, <span class="fw-bolder">NUTRIPRENEUR</span> A <span class="fw-bolder">QUALIFIED CLINICAL DIETITIAN</span> & <span class="fw-bolder">NUTRITION COUNSELLOR. </span></h6>
+                    <h6 class="display-20 display-sm-15 font-weight-400 mb-3">HI, I AM DHRUVI, <span class="fw-bolder">NUTRIPRENEUR,</span> A <span class="fw-bolder">QUALIFIED CLINICAL DIETITIAN</span> & <span class="fw-bolder">NUTRITION COUNSELLOR. </span></h6>
                     <p class="text-secondary lead title-font">Welcome to my world of Nutrition!</p>
                     <p>
                         I believe in <b>Rise above with balanced self-care</b>. Let's reconnect with your wellness through food, which is the information we use to communicate with our bodies. As your Personal Nutritionist, I am here to help you cut through the noise and navigate your way to genuine, healthful habits.
@@ -134,7 +134,7 @@
                             <h3 class="title-font mb-0 font-weight-800 display-10">04</h3>
                         </div>
                     </div>
-                    <h4 class="mb-0 text-primary">Fitness plans</h4>
+                    <h4 class="mb-0 text-primary">Fitness Plans</h4>
                 </div>
             </div>
         </div>
@@ -160,7 +160,7 @@
                         <img src="/website-assets/img/icons/diet.png" alt="...">
                     </div>
                     <h3 class="h4 mb-3"><a href="javascript:void(0);">WEIGHT LOSS /GAIN</a></h3>
-                    <p>Achieve your desired body composition with our weight loss/gain nutrition packages that target both muscle mass and fat loss. Get in shape and feel your best!</p>
+                    <p>Achieve your desired body composition with our Weight Loss / Gain Nutrition Packages that target both muscle mass and fat loss. Get in shape and feel your best!</p>
                     {{--<a href="weight-loss-programs.html" class="link-btn">Read More</a>--}}
                 </div>
             </div>
@@ -171,7 +171,7 @@
                         <img src="/website-assets/img/icons/clinical-condition.png" alt="...">
                     </div>
                     <h3 class="h4 mb-3"><a href="javascript:void(0);">CLINICAL CONDITIONS OR GUT ISSUES</a></h3>
-                    <p>Our personalized nutrition packages cater to a variety of clinical conditions such as Diabetes, Blood Pressure , Thyroid , PCOS , Fatty Liver and Gut Issues to help improve your health and allevitae symptoms.</p>
+                    <p>Our personalized Nutrition Packages cater to a variety of clinical conditions such as Diabetes, Blood Pressure , Thyroid , PCOS , Fatty Liver and Gut Issues to help improve your health and allevitae symptoms.</p>
                     {{--<a href="balance-body-mind.html" class="link-btn">Read More</a>--}}
                 </div>
             </div>
@@ -182,7 +182,7 @@
                         <img src="/website-assets/img/icons/skin-care.png" alt="...">
                     </div>
                     <h3 class="h4 mb-3"><a href="javascript:void(0);">FOR SKIN AND HAIR</a></h3>
-                    <p>For a glowing complexion and luscious locks, try our specialized nutrition packages that cater to your skin and hair needs, and boost your confidence.</p>
+                    <p>For a glowing complexion and luscious locks, try our specialized Nutrition Packages that cater to your skin and hair needs, and boost your confidence.</p>
                     {{--<a href="personalized-nutrition.html" class="link-btn">Read More</a>--}}
                 </div>
             </div>
@@ -193,7 +193,7 @@
                         <img src="/website-assets/img/icons/coworking.png" alt="...">
                     </div>
                     <h3 class="h4 mb-3"><a href="javascript:void(0);">CORPORATE WELLNESS</a></h3>
-                    <p>Improve productivity and boost morale in your workplace with our corporate wellness nutrition packages designed for working professionals and busy business people.</p>
+                    <p>Improve productivity and boost morale in your workplace with our Corporate Wellness Nutrition Packages designed for working professionals and busy business people.</p>
                     {{--<a href="fitness-performance.html" class="link-btn">Read More</a>--}}
                 </div>
             </div>
@@ -204,7 +204,7 @@
                         <img src="/website-assets/img/icons/old-age.png" alt="...">
                     </div>
                     <h3 class="h4 mb-3"><a href="javascript:void(0);">HOME-MAKERS/ELDERY/OLD AGE PEOPLE</a></h3>
-                    <p>Our tailored nutrition packages for homemakers and elderly individuals offer delicious, nutrient-dense options that cater
+                    <p>Our Tailored Nutrition Packages for Home - makers and Elderly Individuals offer delicious, nutrient-dense options that cater
                         to your unique dietary needs and preferences.</p>
                     {{--<a href="healthy-daily-life.html" class="link-btn">Read More</a>--}}
                 </div>
@@ -216,7 +216,7 @@
                         <img src="/website-assets/img/icons/baby-food.png" alt="...">
                     </div>
                     <h3 class="h4 mb-3"><a href="javascript:void(0);">INFANT/ KIDS NUTRITION</a></h3>
-                    <p>Give your little ones the best start in life with our nutrition packages, packed with vitamins and minerals to support healthy growth and development.</p>
+                    <p>Give your little ones the best start in life with our Nutrition Packages, packed with vitamins and minerals to support healthy growth and development.</p>
                     {{--<a href="support-motivation.html" class="link-btn">Read More</a>--}}
                 </div>
             </div>
@@ -226,8 +226,8 @@
                     <div class="icon-box">
                         <img src="/website-assets/img/icons/post_pregnancy.png" alt="...">
                     </div>
-                    <h3 class="h4 mb-3"><a href="javascript:void(0);">PREGNANCY OR POST PARTUM</a></h3>
-                    <p>Nourish your body during and after pregnancy with our nutrition packages, crafted to support a healthy and happy journey into motherhood.</p>
+                    <h3 class="h4 mb-3"><a href="javascript:void(0);">PREGNANCY AND POST PARTUM NUTRITION</a></h3>
+                    <p>Nourish your body during and after pregnancy with our Nutrition Packages, crafted to support a healthy and happy journey into motherhood.</p>
                     {{--<a href="support-motivation.html" class="link-btn">Read More</a>--}}
                 </div>
             </div>
@@ -238,7 +238,7 @@
                         <img src="/website-assets/img/icons/yoga.png" alt="...">
                     </div>
                     <h3 class="h4 mb-3"><a href="javascript:void(0);">"WEDDING WELLNESS “or "COUPLE’S NUTRITION"</a></h3>
-                    <p>Get ready for your big day with our wedding/couples nutrition packages that will help you look and feel your best on
+                    <p>Get ready for your big day with our Wedding/ Couple’s Nutrition Packages that will help you look and feel your best on
                         your special day.</p>
                     {{--<a href="support-motivation.html" class="link-btn">Read More</a>--}}
                 </div>
@@ -290,7 +290,7 @@
                         <ul class="list-style1">
                             <li>1:1 Nutritional Therapy Session</li>
                             <li>Behavioural Modification Strategies & Nutrition Resources</li>
-                            <li>Personalised Nutritional Prescription (Meal plans)</li>
+                            <li>Personalised Nutritional Prescription (Meal Plans)</li>
                             <li>Exercise Guide</li>
                             <li>4 Sessions with Constant Support & Follow ups</li>
                         </ul>
@@ -315,7 +315,7 @@
                         <ul class="list-style1">
                             <li>1:1 Nutritional Therapy Session</li>
                             <li>Behavioural Modification Strategies & Nutrition Resources</li>
-                            <li>Personalised Nutritional Prescription (Meal plans)</li>
+                            <li>Personalised Nutritional Prescription (Meal Plans)</li>
                             <li>Exercise Guide</li>
                             <li>12 Sessions with Constant Support & Follow ups </li>
                         </ul>
@@ -339,8 +339,8 @@
                         <ul class="list-style1">
                             <li>1:1 Nutritional Therapy Session</li>
                             <li>Behavioural Modification Strategies & Nutrition Resources</li>
-                            <li>Personalised Nutritional Prescription (Meal plan)</li>
-                            <li>EXERCISE GUIDE</li>
+                            <li>Personalised Nutritional Prescription (Meal Plans)</li>
+                            <li>Exercise Guide</li>
                             <li>24 Sessions with Constant Support & Follow ups</li>
                         </ul>
                         {{--<div class="text-center">--}}
@@ -363,8 +363,8 @@
                         <ul class="list-style1">
                             <li>1:1 Nutritional Therapy Session</li>
                             <li>Behavioural Modification Strategies & Nutrition Resources</li>
-                            <li>Personalised Nutritional Prescription (Meal plan)</li>
-                            <li>EXERCISE GUIDE</li>
+                            <li>Personalised Nutritional Prescription (Meal Plans)</li>
+                            <li>Exercise Guide</li>
                             <li>48 Sessions with Constant Support & Follow ups</li>
                         </ul>
                     </div>

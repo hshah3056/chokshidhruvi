@@ -41,8 +41,11 @@
                 </div>
                 <div class="col-lg-7" style="text-align: justify">
                     <div class="ps-lg-2-2 ps-xl-6">
-                        <h2 class="h4 mb-1-6 font-weight-400">Welcome to my world of Nutrition! <span class="fw-bolder">I'm DHRUVI,</span> a passionate and QUALIFIED CLINICAL DIETITIAN and NUTRITION COUNSELLOR.</h2>
-                        <p class="display-sm-28 mb-1-9">Like many, I struggled with my weight and felt trapped in my own body. I tried every fad diet out there, but it wasn't until I delved into the science behind nutrition and earned my BSc, post-grad degree in Clinical Diet, and with various certifications, I discovered the truth about weight management.</p>
+                        <h2 class="h4 mb-1-6 font-weight-400">Welcome to my world of Nutrition!
+                            {{--<span class="fw-bolder">I'm DHRUVI,</span>--}}
+                            I'm DHRUVI, A PASSIONATE,QUALIFIED CLINICAL DIETITIAN AND NUTRITION COUNSELLOR.
+                        </h2>
+                        <p class="display-sm-28 mb-1-9">Like many, I struggled with my weight and felt trapped in my own body. I tried every Fad diet out there, but it wasn't until I delved into the science behind nutrition and earned my BSc, post-grad degree in Clinical Diet, and with various certifications, I discovered the truth about weight management.</p>
                         <p class="display-sm-28 mb-1-9"> Now, as a Qualified Nutritionist I'm a firm believer that true health isn't about deprivation or obsession; it's about making lasting changes and finding a balance.</p>
                         <p class="display-sm-28 mb-1-9"> With my expertise, I'll help you make informed choices and avoid the maze of nutri-nonsense, fads, and cons that can hinder your progress. Together, we'll develop a personalized nutrition framework that fits your unique needs, preferences, and lifestyle. I'll guide you through dietary advice and lifestyle modifications with an integrated approach that combines nutrition, coaching, and support.</p>
                     </div>
