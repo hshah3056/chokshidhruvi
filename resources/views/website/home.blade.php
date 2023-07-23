@@ -47,7 +47,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="ps-xxl-2-3">
-                    <h6 class="display-20 display-sm-15 font-weight-400 mb-3">HI, I AM DHRUVI, <span class="fw-bolder">Nutripreneur</span> A <span class="fw-bolder">QUALIFIED CLINICAL DIETITIAN</span> & <span class="fw-bolder">NUTRITION COUNSELLOR. </span></h6>
+                    <h6 class="display-20 display-sm-15 font-weight-400 mb-3">HI, I AM DHRUVI, <span class="fw-bolder">NUTRIPRENEUR</span> A <span class="fw-bolder">QUALIFIED CLINICAL DIETITIAN</span> & <span class="fw-bolder">NUTRITION COUNSELLOR. </span></h6>
                     <p class="text-secondary lead title-font">Welcome to my world of Nutrition!</p>
                     <p>
                         I believe in <b>Rise above with balanced self-care</b>. Let's reconnect with your wellness through food, which is the information we use to communicate with our bodies. As your Personal Nutritionist, I am here to help you cut through the noise and navigate your way to genuine, healthful habits.
@@ -69,7 +69,7 @@
                                     <img src="/website-assets/img/icons/icon-19.png" alt="...">
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h4 class="mb-0 h5">Personalized exercise Plan</h4>
+                                    <h4 class="mb-0 h5">Personalized Exercise Plan</h4>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                             <h3 class="title-font mb-0 font-weight-800 display-10">01</h3>
                         </div>
                     </div>
-                    <h4 class="mb-0 text-primary">Body composition analysis</h4>
+                    <h4 class="mb-0 text-primary">Body Composition Analysis</h4>
                 </div>
             </div>
             <div class="col-md-6 col-xxl-3 mt-1-9">
@@ -171,7 +171,7 @@
                         <img src="/website-assets/img/icons/clinical-condition.png" alt="...">
                     </div>
                     <h3 class="h4 mb-3"><a href="javascript:void(0);">CLINICAL CONDITIONS OR GUT ISSUES</a></h3>
-                    <p>Our personalized nutrition packages cater to a variety of clinical conditions such as diabetes, blood pressure, thyroid, PCOS, fatty liver, and Gut Issues, to help improve your health and alleviate symptoms.</p>
+                    <p>Our personalized nutrition packages cater to a variety of clinical conditions such as Diabetes, Blood Pressure , Thyroid , PCOS , Fatty Liver and Gut Issues to help improve your health and allevitae symptoms.</p>
                     {{--<a href="balance-body-mind.html" class="link-btn">Read More</a>--}}
                 </div>
             </div>

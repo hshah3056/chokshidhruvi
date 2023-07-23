@@ -4,12 +4,22 @@
 
 @section('page-content')
     <section>
-    <div class="container">
+        <div class="container">
         <div class="row g-0">
             <div class="col-lg-7">
+                @if(session('error'))
+                    <div class="alert alert-danger">{{ session('error') }}</div>
+                @elseif(session('errors'))
+                    <div class="alert alert-danger">{{ session('errors')->first() }}</div>
+                @endif
+
+                @if(session('success'))
+                    <div class="alert alert-success">{{ session('success') }}</div>
+                @endif
                 <div class="p-2-2 p-lg-2-9 box-shadow-style1 h-100">
                     <h2 class="mb-4">GET A QUOTE</h2>
                     <form class="contact" action="" method="post" enctype="multipart/form-data" onclick="">
+                        @csrf
                         <div class="quform-elements">
                             <div class="row">
 
@@ -87,7 +97,7 @@
                                 <!-- Begin Submit button -->
                                 <div class="col-md-12">
                                     <div class="quform-submit-inner">
-                                        <button class="butn border-0" type="button">Submit</button>
+                                        <button class="butn border-0" type="submit">Submit</button>
                                     </div>
                                     <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
                                 </div>
@@ -161,6 +171,6 @@
             </div>
         </div>
     </div>
-</section>
+    </section>
 
 @endsection
