@@ -19,7 +19,7 @@
                 <div class="col-md-10 col-lg-7 py-5">
                     <h1 class="display-17 display-sm-11 display-md-9 display-lg-8 display-xl-4 mb-lg-3 letter-spacing-4 title-font text-white font-weight-900">Welcome to a World where Nutrition is Simple and Stress-free.</h1>
                     <p class="display-25 display-lg-22 text-white mb-md-4">Let me be your guide in decluttering the overwhelming maze of nutritional information out there.</p>
-                    <a href="contact.html" class="butn-style01 secondary"><span>Get Started Now</span></a>
+                    <a href="{{route('website-contact')}}" class="butn-style01 secondary"><span>Get Started Now</span></a>
                 </div>
                 <!-- Banner text -->
             </div>
@@ -74,7 +74,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="about-us.html" class="butn secondary">Read More</a>
+                    <a href="{{route('website-about')}}" class="butn secondary">Read More</a>
                 </div>
             </div>
         </div>
@@ -258,7 +258,7 @@
             <div class="col-lg-6 text-center">
                 <span class="d-block mb-3 text-secondary title-font display-25 display-md-23">NUTRITION IN SYNC.</span>
                 {{--<h2 class="mb-1-9 mb-lg-2-3 display-20 display-sm-15 display-xl-9 display-xxl-6 font-weight-400 text-white">Healthy and tasty foods with<span class="fw-bolder"> natural ingredients</span></h2>--}}
-                <a href="javascript:void(0);" class="butn secondary">Contact Us</a>
+                <a href="{{route('website-contact')}}" class="butn secondary">Contact Us</a>
             </div>
         </div>
         {{--<div class="position-absolute top-50 start-50 translate-middle">--}}
@@ -405,7 +405,7 @@
                             </ul>
                         </div>
                     </div>
-                    <a href="our-services.html" class="butn secondary">Learn More</a>
+                    <a href="javascript:void(0);" class="butn secondary">Learn More</a>
                 </div>
             </div>
             <div class="col-lg-6">
