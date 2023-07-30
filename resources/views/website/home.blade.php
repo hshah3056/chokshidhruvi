@@ -47,7 +47,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="ps-xxl-2-3">
-                    <h6 class="display-20 display-sm-15 font-weight-400 mb-3">HI, I AM DHRUVI, <span class="fw-bolder">NUTRIPRENEUR,</span> A <span class="fw-bolder">QUALIFIED CLINICAL DIETITIAN</span> & <span class="fw-bolder">NUTRITION COUNSELLOR. </span></h6>
+                    <h6 class="display-20 display-sm-15 font-weight-400 mb-3">HI, I AM DHRUVI, <span class="fw-bolder">NUTRIPRENEUR, A</span> <span class="fw-bolder">QUALIFIED CLINICAL DIETITIAN</span> & <span class="fw-bolder">NUTRITION COUNSELLOR. </span></h6>
                     <p class="text-secondary lead title-font">Welcome to my world of Nutrition!</p>
                     <p>
                         I believe in <b>Rise above with balanced self-care</b>. Let's reconnect with your wellness through food, which is the information we use to communicate with our bodies. As your Personal Nutritionist, I am here to help you cut through the noise and navigate your way to genuine, healthful habits.
@@ -121,7 +121,7 @@
                             <h3 class="title-font mb-0 font-weight-800 display-10">03</h3>
                         </div>
                     </div>
-                    <h4 class="mb-0 text-primary">1:1 support</h4>
+                    <h4 class="mb-0 text-primary">1:1 Support</h4>
                 </div>
             </div>
             <div class="col-md-6 col-xxl-3 mt-1-9">
@@ -147,7 +147,7 @@
     <div class="container">
         <div class="section-heading">
                 <span class="text-secondary title-font display-25 display-md-23 d-block mb-1">
-                    “WE offer Nutrition for all lifestyles"
+                    “We Offer Nutrition For All Lifestyles"
                 </span>
             {{--<h2>Provide best<span class="fw-bolder"> services</span></h2>--}}
             {{--<p class="mb-0 w-md-80 w-lg-70 w-xl-50 mx-auto">We connect buyers and sellers of natural, organic, environmentally sound products. We find the best suppliers and makers of natural and organic products.</p>--}}
@@ -272,7 +272,7 @@
     <div class="container">
         <div class="section-heading">
             {{--<span class="text-secondary title-font display-25 display-md-23 d-block mb-1">Our pricing plans</span>--}}
-            <h2>OUR NUTRITION <span class="fw-bolder"> PACKAGES</span></h2>
+            <h2><span class="fw-bolder">OUR NUTRITION PACKAGES</span></h2>
             {{--<p class="mb-0 w-md-80 w-lg-70 w-xl-50 mx-auto">We connect buyers and sellers of natural, organic, environmentally sound products. We find the best suppliers and makers of natural and organic products.</p>--}}
         </div>
         <div class="row g-xl-5 mt-n1-9">

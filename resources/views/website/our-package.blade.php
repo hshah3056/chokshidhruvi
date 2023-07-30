@@ -98,8 +98,8 @@
                             <ul class="list-style1">
                                 <li>1:1 Nutritional Therapy Session</li>
                                 <li>Behavioural Modification Strategies & Nutrition Resources</li>
-                                <li>Personalised Nutritional Prescription (Meal plan)</li>
-                                <li>EXERCISE GUIDE</li>
+                                <li>Personalised Nutritional Prescription (Meal Plans)</li>
+                                <li>Exercise Guide</li>
                                 <li>24 Sessions with Constant Support & Follow ups</li>
                             </ul>
                             {{--<div class="text-center">--}}
@@ -122,8 +122,8 @@
                             <ul class="list-style1">
                                 <li>1:1 Nutritional Therapy Session</li>
                                 <li>Behavioural Modification Strategies & Nutrition Resources</li>
-                                <li>Personalised Nutritional Prescription (Meal plan)</li>
-                                <li>EXERCISE GUIDE</li>
+                                <li>Personalised Nutritional Prescription (Meal Plans)</li>
+                                <li>Exercise Guide</li>
                                 <li>48 Sessions with Constant Support & Follow ups</li>
                             </ul>
                         </div>

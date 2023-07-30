@@ -22,6 +22,9 @@ Route::group(['namespace' => 'Website'], function () {
     Route::get('about', [\App\Http\Controllers\Website\HomeController::class, 'about'])->name('website-about');
     Route::get('our-packages', [\App\Http\Controllers\Website\HomeController::class, 'ourPackages'])->name('website-packages');
 
+    Route::get('blog-list', [\App\Http\Controllers\Website\BlogController::class, 'index'])->name('website-blog-list');
+    Route::get('blog-details', [\App\Http\Controllers\Website\BlogController::class, 'details'])->name('website-blog-detail');
+
     Route::get('contact', [\App\Http\Controllers\Website\ContactController::class, 'index'])->name('website-contact');
     Route::post('contact', [\App\Http\Controllers\Website\ContactController::class, 'index'])->name('website-contact');
 });

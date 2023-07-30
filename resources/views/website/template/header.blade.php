@@ -130,8 +130,14 @@
                             </li>
                             <li><a href="{{route('website-about')}}">About Me</a></li>
                             <li><a href="{{route('website-packages')}}">Our Packages</a></li>
-                            <li><a href="/">Success Stories</a></li>
-                            <li><a href="/">The Nutrition Corner</a></li>
+                            <li><a href="#!">Success Stories</a></li>
+                            <li><a href="{{route('website-home')}}">The Nutrition Corner</a>
+                                <ul>
+                                    <li><a href="#!">Nutrition Resources </a></li>
+                                    <li><a href="{{route('website-blog-list')}}">Blogs / Articles</a></li>
+                                </ul>
+                            </li>
+                            {{--<li><a href="/">The Nutrition Corner</a></li>--}}
                             {{--<li><a href="/">Nutrition Packages</a>--}}
                                 {{--<ul>--}}
                                     {{--<li><a href="/">Success stories</a></li>--}}
