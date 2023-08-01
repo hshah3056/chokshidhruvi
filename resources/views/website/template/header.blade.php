@@ -133,8 +133,8 @@
                             <li><a href="#!">Success Stories</a></li>
                             <li><a href="{{route('website-home')}}">The Nutrition Corner</a>
                                 <ul>
-                                    <li><a href="#!">Nutrition Resources </a></li>
-                                    <li><a href="{{route('website-blog-list')}}">Blogs / Articles</a></li>
+                                    <li><a href="{{route('website-blog-list')}}">BLOGS / ARTICLES</a></li>
+                                    <li><a href="#!">NUTRITION RESOURCES </a></li>
                                 </ul>
                             </li>
                             {{--<li><a href="/">The Nutrition Corner</a></li>--}}

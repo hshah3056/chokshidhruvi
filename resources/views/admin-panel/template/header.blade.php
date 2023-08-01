@@ -11,7 +11,7 @@
         </ul>
     </div>
     @php
-        $employee = Session::get('employee');
+        $admin = \Illuminate\Support\Facades\Session::get('admin');
     @endphp
     <div class="navbar-wrapper">
         <div class="navbar-container content">
@@ -21,28 +21,28 @@
                         <a class="nav-link nav-link-expand" href="#"><i class="ficon ft-maximize"></i></a>
                     </li>
                     <li class="nav-item d-none d-md-block">
-                        <h4 class="block" style="margin-top: 25px;margin-left: 30%">Welcome {{ $employee->name }}</h4>
+                        <h4 class="block" style="margin-top: 25px;margin-left: 30%">Welcome {{ $admin->name }}</h4>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav float-right">
                     <li class="dropdown dropdown-user nav-item">
                         <a class="dropdown-toggle nav-link dropdown-user-link text-center" href="#" data-toggle="dropdown">
-                            <span class="avatar avatar-online"><img src="/emp-assets/images/icons/user-tie.svg" alt="avatar"></span>
-                            <small style="display: block">{{ Session::get('employee')->emp_id }}</small>
+                            <span class="avatar avatar-online"><img src="/admin-assets/images/icons/user-tie.svg" alt="avatar"></span>
+                            <small style="display: block">{{ Session::get('admin')->admin_id }}</small>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
                             <div class="arrow_box_right">
                                 <a class="dropdown-item" href="#">
                                    <span class="text-bold-700">
-                                       {{ Session::get('employee')->name }}
+                                       {{ Session::get('admin')->name }}
                                    </span>
                                 </a>
-                                <a class="dropdown-item header-tracking-id" href="javascript:void(0)" title="Click to copy" data-clipboard-text="{{ $employee->tracking_id }}" onclick="INGENIOUS.copyToClipboard('.header-tracking-id', 'Tracking ID has been copied to clipboard')">
-                                    TID: {{ $employee->emp_id }}
+                                <a class="dropdown-item header-tracking-id" href="javascript:void(0)" title="Click to copy" data-clipboard-text="{{ $admin->tracking_id }}" onclick="INGENIOUS.copyToClipboard('.header-tracking-id', 'Tracking ID has been copied to clipboard')">
+                                    TID: {{ $admin->admin_id }}
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="{{route('emp-account-profile')}}"><i class="ft-user"></i> Edit Profile</a>
-                                <a class="dropdown-item" href="{{ route('emp-logout') }}"><i class="ft-power"></i> Logout</a>
+                                {{--<a class="dropdown-item" href="{{route('emp-account-profile')}}"><i class="ft-user"></i> Edit Profile</a>--}}
+                                <a class="dropdown-item" href="{{ route('admin-logout') }}"><i class="ft-power"></i> Logout</a>
                             </div>
                         </div>
                     </li>
@@ -56,84 +56,31 @@
     <div class="navbar-container main-menu-content" data-menu="menu-container">
         <ul class="nav navbar-nav"  data-menu="menu-navigation">
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('emp-dashboard') }}">
+                <a class="nav-link" href="{{ route('dashboard') }}">
                     <i class="ft-home"></i><span> Dashboard</span>
                 </a>
             </li>
-            <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="javascript:void(0)" data-toggle="dropdown">
-                    <i class="ft-box"></i><span>Leave</span></a>
-                <ul class="dropdown-menu">
-                    <div class="arrow_box">
-                        <li data-menu="">
-                            <a class="dropdown-item" href="{{ route('emp-leave-view') }}" data-toggle="dropdown">Leave view</a>
-                        </li>
-                        <li  data-menu="">
-                            <a class="dropdown-item" href="{{ route('emp-leave-create') }}" data-toggle="dropdown">Leave Apply
-                            </a>
-                        </li>
-                        <li  data-menu="">
-                            <a class="dropdown-item" href="{{ route('emp-leave-balance') }}" data-toggle="dropdown">Leave Balance</a>
-                        </li>
+            {{--<li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="javascript:void(0)" data-toggle="dropdown">--}}
+                    {{--<i class="ft-box"></i><span>contacts</span></a>--}}
+                {{--<ul class="dropdown-menu">--}}
+                    {{--<div class="arrow_box">--}}
+                        {{--<li data-menu="">--}}
+                            {{--<a class="dropdown-item" href="{{ route('admin-leave-view') }}" data-toggle="dropdown">Leave view</a>--}}
+                        {{--</li>--}}
+                        {{--<li  data-menu="">--}}
+                            {{--<a class="dropdown-item" href="{{ route('admin-leave-create') }}" data-toggle="dropdown">Leave Apply--}}
+                            {{--</a>--}}
+                        {{--</li>--}}
+                        {{--<li  data-menu="">--}}
+                            {{--<a class="dropdown-item" href="{{ route('admin-leave-balance') }}" data-toggle="dropdown">Leave Balance</a>--}}
+                        {{--</li>--}}
 
-                    </div>
-                </ul>
-            </li>
-
-
-            <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="javascript:void(0);" data-toggle="dropdown">
-                    <i class="ft-box"></i><span>Salary</span></a>
-                <ul class="dropdown-menu">
-                    <div class="arrow_box">
-                        <li data-menu="">
-                            <a class="dropdown-item" href="{{ route('emp-salary-view') }}" data-toggle="dropdown"> Salary Slip </a>
-                        </li>
-                    </div>
-                </ul>
-            </li>
-
-            <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="javascript:void(0);" data-toggle="dropdown">
-                    <i class="ft-box"></i><span>Task</span></a>
-                <ul class="dropdown-menu">
-                    <div class="arrow_box">
-                        <li data-menu="">
-                            <a class="dropdown-item" href="{{route('emp-task-lists')}}" data-toggle="dropdown"> View </a>
-                        </li>
-                        <li data-menu="">
-                            <a class="dropdown-item" href="{{route('emp-task-create')}}" data-toggle="dropdown"> Create </a>
-                        </li>
-                        <li data-menu="">
-                            <a class="dropdown-item" href="{{route('emp-task-history')}}" data-toggle="dropdown"> History </a>
-                        </li>
-                    </div>
-                </ul>
-            </li>
-
-            <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="javascript:void(0);" data-toggle="dropdown">
-                    <i class="ft-box"></i><span>Department</span></a>
-                <ul class="dropdown-menu">
-                    <div class="arrow_box">
-                        <li data-menu="">
-                            <a class="dropdown-item" href="{{route('emp-department-view')}}" data-toggle="dropdown"> View </a>
-                        </li>
-                    </div>
-                </ul>
-            </li>
-
-            @if(Session::get('employee')->emp_access_mode == \App\Models\Employee::ADMIN)
-                <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="javascript:void(0);" data-toggle="dropdown">
-                        <i class="ft-box"></i><span>Employee</span></a>
-                    <ul class="dropdown-menu">
-                        <div class="arrow_box">
-                            <li data-menu="">
-                                <a class="dropdown-item" href="{{ route('emp-register') }}" data-toggle="dropdown"> Add New Employee</a>
-                            </li>
-                        </div>
-                    </ul>
-                </li>
-            @endif
+                    {{--</div>--}}
+                {{--</ul>--}}
+            {{--</li>--}}
 
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('emp-logout') }}">
+                <a class="nav-link" href="{{ route('admin-logout') }}">
                     <i class="ft-log-out"></i><span> Logout</span>
                 </a>
             </li>

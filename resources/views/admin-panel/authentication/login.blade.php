@@ -57,7 +57,7 @@
                                     <form class="form-horizontal" action="" method="post" novalidate>
                                         {{ csrf_field() }}
                                         <fieldset class="form-group">
-                                            <input type="text" class="form-control square" name="Admin_id" placeholder="Enter your Admin id" required>
+                                            <input type="text" class="form-control square" name="admin_id" placeholder="Enter your Admin id" required>
                                         </fieldset>
                                         <div class="input-group mb-3">
                                             <input type="password" class="form-control passwordInput" name="password" placeholder="Enter Password">

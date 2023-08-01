@@ -6,7 +6,7 @@
 
     <!-- PAGE TITLE
         ================================================== -->
-    <section class="page-title-section bg-img cover-background" data-overlay-dark="6" data-background="/website-assets/img/bg/bg-03.jpg">
+    <section class="page-title-section bg-img cover-background" data-overlay-dark="6" data-background="/website-assets/img/bg/bread_crumb_bg.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -55,7 +55,7 @@
                                 </div>
                             </div>
                             <div class="portfolio-content">
-                                <h6 class="text-muted font-weight-500">Combating Nervousness, Anxiety & Depression Through Nutrition</h6>
+                                <h6 class="text-muted font-weight-500">Nervousness, Anxiety & Depression Mechanism</h6>
                                 <h4 class="mb-0"><a href="{{route('website-blog-detail')}}" class="portfolio-link">Nourishing Minds</a></h4>
                             </div>
                         </div>

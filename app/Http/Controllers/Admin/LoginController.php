@@ -7,6 +7,7 @@ use App\Models\Admin;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Library\helper;
+use Illuminate\Support\Facades\Session;
 
 class LoginController extends Controller
 {
@@ -22,7 +23,6 @@ class LoginController extends Controller
                   'password.required' => 'Password is Required'
               ]);
 
-              dd('ho ');
               $admin = Admin::where('admin_id',$request->admin_id)->Where('password', $request->password)->first();
               if (!$admin)
                   return redirect()->back()->with(['error' => 'Invalid Username or Tracking ID']);
@@ -30,14 +30,14 @@ class LoginController extends Controller
               if($request->password != $admin->password)
                   return redirect()->back()->with(['error'=> 'Password is Not Match with Username!']);
 
-              \Session::put('admin', $admin);
+              Session::put('admin', $admin);
 
               Admin::where('id',$admin->id)->update([
                   'last_logged_in_ip' => Helper::getClientIp(),
                   'last_logged_in_at' => Carbon::now()
               ]);
 
-              return redirect()->route('emp-dashboard')->with([
+              return redirect()->route('dashboard')->with([
                   'success' => 'Welcome to'. $admin->name .' account'
               ]);
           }
@@ -52,6 +52,6 @@ class LoginController extends Controller
     public function logout()
     {
         \Session::forget('admin');
-        return redirect()->route('emp-login');
+        return redirect()->route('admin-login');
     }
 }

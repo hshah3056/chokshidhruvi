@@ -8,11 +8,11 @@
     <meta name="author" content="Website Design Templates" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="keywords" content="DhruviChokshi - Health and Nutrition Counsellor" />
-    <meta name="description" content="DhruviChokshi - Health and Nutrition Counsellor" />
+    <meta name="keywords" content="Dhruvi Chokshi- Nutritionist and Clinical Dietitian" />
+    <meta name="description" content="Dhruvi Chokshi- Nutritionist and Clinical Dietitian" />
 
     <!-- title  -->
-    <title>DhruviChokshi - Health and Nutrition Counsellor </title>
+    <title>Dhruvi Chokshi- Nutritionist and Clinical Dietitian </title>
 
     <!-- favicon -->
     <link rel="shortcut icon" href="/website-assets/img/logos/favicon.png" />
