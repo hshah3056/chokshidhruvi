@@ -60,6 +60,11 @@
                     <i class="ft-home"></i><span> Dashboard</span>
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('contact-data') }}">
+                    <i class="ft-user"></i><span>Resources</span>
+                </a>
+            </li>
             {{--<li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="javascript:void(0)" data-toggle="dropdown">--}}
                     {{--<i class="ft-box"></i><span>contacts</span></a>--}}
                 {{--<ul class="dropdown-menu">--}}

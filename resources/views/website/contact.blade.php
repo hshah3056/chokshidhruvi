@@ -133,8 +133,9 @@
             </div>
             <div class="col-lg-5 bg-img cover-background theme-overlay" data-overlay-dark="9" data-background="website-assets/img/content/contact-image.jpg" style="background-image: url(website-assets/img/content/contact-image.jpg);">
                 <div class="p-1-9 p-lg-2-9 position-relative z-index-1 h-100">
-                    <h2 class="mb-3 text-white">Our Contact Detail</h2>
-                    <p class="mb-2-2 text-white display-sm-28">Need any consultations contact with us</p>
+                    <h2 class="mb-3 text-white">Get In Touch With Us.</h2>
+                    <p></p>
+                    {{--<p class="mb-2-2 text-white display-sm-28">Need any consultations contact with us</p>--}}
                     <div class="d-flex mb-4 pb-3 border-bottom border-color-light-white">
                         <div class="flex-shrink-0 mt-2">
                             <i class="fas fa-phone-alt text-secondary fs-2"></i>

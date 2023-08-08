@@ -32,4 +32,14 @@ class helper
             }
         }
     }
+
+    /**
+     * @param Paginator $collection
+     * @param integer $index
+     * @return string;
+     */
+    public static function tableIndex($collection, $index)
+    {
+        return ($collection->currentpage() - 1) * $collection->perpage() + $index + 1;
+    }
 }
