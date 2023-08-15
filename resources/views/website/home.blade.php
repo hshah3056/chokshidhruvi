@@ -12,7 +12,7 @@
     </style>
     @endsection
 
-    <section class="bg-img cover-background pt-6 pb-9 pt-sm-10 pb-sm-14 py-md-16 py-lg-20 py-xxl-23" data-overlay-dark="6" data-background="/website-assets/img/banner/banner-04.jpg" style="background-image: url(/website-assets/img/banner/banner-04.jpg);">
+    <section class="bg-img cover-background pt-6 pb-9 pt-sm-10 pb-sm-14 py-md-16 py-lg-20 py-xxl-23" data-overlay-dark="6" data-background="/website-assets/img/banner/Home-Page-Banner.jpg" style="background-image: url(/website-assets/img/banner/banner-04.jpg);">
         <div class="container pb-40">
             <div class="row align-items-center">
                 <!-- Banner text -->
@@ -24,7 +24,7 @@
                 <!-- Banner text -->
             </div>
         </div>
-        <img src="/website-assets/img/content/bottom-bg-shape.png" class="position-absolute bottom-0 z-index-3" alt="...">
+        <img src="/website-assets/img/content/bottom-bg-shape.png" class="position-absolute bottom-0 z-index-3" alt="..." style="width: -webkit-fill-available;">
         <img src="/website-assets/img/content/animation1.png" class="position-absolute bottom-0 z-index-3 right-25 opacity4 d-none d-md-block" alt="...">
         <img src="/website-assets/img/content/animation2.png" class="position-absolute left-10 top-5 ani-top-bottom z-index-3 opacity6 d-none d-md-block" alt="...">
         <img src="/website-assets/img/content/animation3.png" class="position-absolute bottom-5 ani-left-right z-index-3 opacity1 d-none d-md-block" alt="...">

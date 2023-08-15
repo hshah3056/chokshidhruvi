@@ -2,20 +2,20 @@
       ================================================== -->
 <header class="header-style3">
 
-    {{--<div class="container">--}}
-        {{--<div class="navbar-header navbar-header-custom row text-dark">--}}
+    <div class="container">
+        <div class="navbar-header navbar-header-custom row text-dark">
 
-            {{--<div class="col-lg-3">--}}
-                {{--<!-- start logo -->--}}
-                {{--<a href="/" class="navbar-brand logodefault">--}}
-                    {{--<img id="logo" src="/website-assets/img/logos/logo.png" alt="logo">--}}
-                {{--</a>--}}
-                {{--<!-- end logo -->--}}
-            {{--</div>--}}
+            <div class="col-lg-3">
+                <!-- start logo -->
+                <a href="/" class="navbar-brand logodefault">
+                    <img id="logo" src="/website-assets/img/logos/logo.png" alt="logo">
+                </a>
+                <!-- end logo -->
+            </div>
 
-            {{--<div class="col-lg-9 col-xl-8 offset-xl-1 offset-lg-0 d-none d-lg-block">--}}
-                {{--<div class="row">--}}
-                    {{--<div class="col-md-4">--}}
+            <div class="col-lg-9 col-xl-8 offset-xl-1 offset-lg-0 d-none d-lg-block">
+                <div class="row">
+                    <div class="col-md-2">
                         {{--<div class="media">--}}
                             {{--<i class="ti-location-pin header-icon text-primary display-12"></i>--}}
                             {{--<div class="media-body ms-3">--}}
@@ -23,76 +23,30 @@
                                 {{--<span class="font-weight-500 display-29 d-block">Guild Street 51, UK</span>--}}
                             {{--</div>--}}
                         {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="col-md-4">--}}
-                        {{--<div class="media">--}}
-                            {{--<i class="ti-email header-icon text-primary display-14"></i>--}}
-                            {{--<div class="media-body ms-3">--}}
-                                {{--<span class="font-weight-600 d-block display-29">Mail Us</span>--}}
-                                {{--<span class="display-29 d-block">info@youremail.com</span>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="col-md-4">--}}
-                        {{--<div class="media">--}}
-                            {{--<i class="ti-mobile header-icon text-primary display-12"></i>--}}
-                            {{--<div class="media-body ms-3">--}}
-                                {{--<span class="font-weight-600 d-block display-29">Call Us</span>--}}
-                                {{--<span class="display-29 d-block">+123 4567 890</span>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-
-        {{--</div>--}}
-    {{--</div>--}}
-
-        <div class="container d-lg-none d-block">
-            <div class="navbar-header navbar-header-custom row text-dark">
-
-                <div class="col-lg-3">
-                    <!-- start logo -->
-                    <a href="/" class="navbar-brand logodefault">
-                        <img id="logo" src="/website-assets/img/logos/logo.png" alt="logo">
-                    </a>
-                    <!-- end logo -->
-                </div>
-
-                {{--<div class="col-lg-9 col-xl-8 offset-xl-1 offset-lg-0 d-none d-lg-block">--}}
-                <div class="col-lg-9 col-xl-8 offset-xl-1 offset-lg-0 d-none">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="media">
-                                <i class="ti-location-pin header-icon text-primary display-12"></i>
-                                <div class="media-body ms-3">
-                                    <span class="font-weight-600 d-block display-29">Our Location</span>
-                                    <span class="font-weight-500 display-29 d-block">Guild Street 51, UK</span>
-                                </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media">
+                            <i class="ti-email header-icon text-primary display-14"></i>
+                            <div class="media-body ms-3">
+                                <span class="font-weight-600 d-block display-29">Mail Us</span>
+                                <span class="display-29 d-block">chokshidhruviconsultations@gmail.com</span>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="media">
-                                <i class="ti-email header-icon text-primary display-14"></i>
-                                <div class="media-body ms-3">
-                                    <span class="font-weight-600 d-block display-29">Mail Us</span>
-                                    <span class="display-29 d-block">info@youremail.com</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="media">
-                                <i class="ti-mobile header-icon text-primary display-12"></i>
-                                <div class="media-body ms-3">
-                                    <span class="font-weight-600 d-block display-29">Call Us</span>
-                                    <span class="display-29 d-block">+123 4567 890</span>
-                                </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="media">
+                            <i class="ti-mobile header-icon text-primary display-12"></i>
+                            <div class="media-body ms-3">
+                                <span class="font-weight-600 d-block display-29">Call Us</span>
+                                <span class="display-29 d-block">(+91) 87992 82366</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
+    </div>
 
     <div class="navbar-default">
 

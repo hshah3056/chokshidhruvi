@@ -21,7 +21,7 @@ class ContactController extends Controller
                 'message' => $request->message
             ]);
 
-            return redirect()->route('website-contact')->with(['success' => 'your records are successfully Submitted, we will be connect to you soon..!!']);
+            return redirect()->route('website-contact')->with(['success' => 'Thank you for submitting your records! We will get in touch with you shortly.']);
         }
         return view('website.contact');
     }
