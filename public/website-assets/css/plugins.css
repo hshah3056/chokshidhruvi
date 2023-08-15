@@ -8123,6 +8123,10 @@ textarea.form-control-lg {
     color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important
 }
 
+.text-green {
+    color: #6d8c54 !important;
+}
+
 .text-body {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important
@@ -25126,7 +25130,7 @@ section.md {
 
 [data-overlay-dark]:before {
     /*background: #000*/
-    background: #00000087;
+    background: #00000099;
 }
 
 [data-overlay-light]:before {

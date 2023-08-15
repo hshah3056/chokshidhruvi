@@ -12,14 +12,14 @@
     </style>
     @endsection
 
-    <section class="bg-img cover-background pt-6 pb-9 pt-sm-10 pb-sm-14 py-md-16 py-lg-20 py-xxl-23" data-overlay-dark="6" data-background="/website-assets/img/banner/Home-Page-Banner.jpg" style="background-image: url(/website-assets/img/banner/banner-04.jpg);">
+    <section class="bg-img cover-background pt-6 pb-9 pt-sm-10 pb-sm-14 py-md-16 py-lg-20 py-xxl-23" data-background="/website-assets/img/banner/home-banner.jpg" style="background-image: url(/website-assets/img/banner/home-banner.jpg);">
         <div class="container pb-40">
             <div class="row align-items-center">
                 <!-- Banner text -->
                 <div class="col-md-10 col-lg-7 py-5">
-                    <h1 class="display-17 display-sm-11 display-md-9 display-lg-8 display-xl-4 mb-lg-3 letter-spacing-4 title-font text-white font-weight-900">Welcome to a World where Nutrition is Simple and Stress-free.</h1>
-                    <p class="display-25 display-lg-22 text-white mb-md-4">Let me be your guide in decluttering the overwhelming maze of nutritional information out there.</p>
-                    <a href="{{route('website-contact')}}" class="butn-style01 secondary"><span>Get Started Now</span></a>
+                    <h1 class="display-17 display-sm-11 display-md-9 display-lg-8 display-xl-4 mb-lg-3 letter-spacing-4 title-font text-green font-weight-900">Welcome to a World where Nutrition is Simple and Stress-free.</h1>
+                    <p class="display-25 display-lg-22 text-green mb-md-4">Let me be your guide in decluttering the overwhelming maze of nutritional information out there.</p>
+                    <a href="{{route('website-contact')}}" class="butn white-hover"><span>Get Started Now</span></a>
                 </div>
                 <!-- Banner text -->
             </div>
