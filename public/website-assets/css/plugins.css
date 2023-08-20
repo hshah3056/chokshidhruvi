@@ -8124,7 +8124,8 @@ textarea.form-control-lg {
 }
 
 .text-green {
-    color: #6d8c54 !important;
+    /*color: #6d8c54 !important;*/
+    color: #55892e !important;
 }
 
 .text-body {

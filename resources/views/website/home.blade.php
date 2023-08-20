@@ -294,9 +294,9 @@
                             <li>Exercise Guide</li>
                             <li>4 Sessions with Constant Support & Follow ups</li>
                         </ul>
-                        {{--<div class="text-center">--}}
-                        {{--<a class="butn secondary" href="contact.html">Choose Plan</a>--}}
-                        {{--</div>--}}
+                        <div class="text-center">
+                            <a class="butn" href="{{route('website-contact')}}">book now</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -319,9 +319,9 @@
                             <li>Exercise Guide</li>
                             <li>12 Sessions with Constant Support & Follow ups </li>
                         </ul>
-                        {{--<div class="text-center">--}}
-                        {{--<a class="butn" href="contact.html">Choose Plan</a>--}}
-                        {{--</div>--}}
+                        <div class="text-center">
+                            <a class="butn" href="{{route('website-contact')}}">book now</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -343,9 +343,9 @@
                             <li>Exercise Guide</li>
                             <li>24 Sessions with Constant Support & Follow ups</li>
                         </ul>
-                        {{--<div class="text-center">--}}
-                        {{--<a class="butn secondary" href="contact.html">Choose Plan</a>--}}
-                        {{--</div>--}}
+                        <div class="text-center">
+                            <a class="butn" href="{{route('website-contact')}}">book now</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -367,6 +367,9 @@
                             <li>Exercise Guide</li>
                             <li>48 Sessions with Constant Support & Follow ups</li>
                         </ul>
+                        <div class="text-center">
+                            <a class="butn" href="{{route('website-contact')}}">book now</a>
+                        </div>
                     </div>
                 </div>
             </div>

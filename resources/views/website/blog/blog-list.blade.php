@@ -18,7 +18,7 @@
                         <span class="right-dot"></span>
                         <ul>
                             <li><a href="{{route('website-home')}}">Home</a></li>
-                            <li><a href="{{route('website-blog-list')}}">ARTICLES/BLOG Listing</a></li>
+                            <li><a href="{{route('website-blog-list')}}">Articles / Blog</a></li>
                         </ul>
                     </div>
                 </div>

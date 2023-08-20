@@ -71,9 +71,9 @@
                                 <!-- Begin Text input element -->
                                 <div class="col-md-6">
                                     <div class="quform-element form-group quform-select-replaced">
-                                        <label for="subject">Your concerns <span class="quform-required">*</span></label>
+                                        <label for="concern">Your concerns <span class="quform-required">*</span></label>
                                         <div class="quform-input">
-                                            <input class="form-control" id="subject" type="text" name="subject" placeholder="Your subject here" required>
+                                            <input class="form-control" id="concern" type="text" name="subject" placeholder="Your Concern here" required>
                                         </div>
                                     </div>
                                 </div>
