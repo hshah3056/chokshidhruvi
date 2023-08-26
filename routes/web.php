@@ -26,6 +26,7 @@ Route::group(['namespace' => 'Website'], function () {
     Route::get('blog-details', [\App\Http\Controllers\Website\BlogController::class, 'details'])->name('website-blog-detail');
 
     Route::get('success-story', [\App\Http\Controllers\Website\StoryController::class, 'index'])->name('website-story');
+    Route::get('nutrition-resources', [\App\Http\Controllers\Website\ResourceController::class, 'index'])->name('website-resources');
 
     Route::get('contact', [\App\Http\Controllers\Website\ContactController::class, 'index'])->name('website-contact');
     Route::post('contact', [\App\Http\Controllers\Website\ContactController::class, 'index'])->name('website-contact');

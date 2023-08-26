@@ -1,6 +1,6 @@
 @extends('website.template.layout')
 
-@section('page-title', 'Home')
+@section('page-title', 'Our Packages')
 
 @section('page-content')
 

@@ -84,11 +84,11 @@
                             </li>
                             <li><a href="{{route('website-about')}}">About Me</a></li>
                             <li><a href="{{route('website-packages')}}">Our Packages</a></li>
-                            <li><a href="#!">Success Stories</a></li>
+                            <li><a href="{{route('website-story')}}">Success Stories</a></li>
                             <li><a href="{{route('website-home')}}">The Nutrition Corner</a>
                                 <ul>
                                     <li><a href="{{route('website-blog-list')}}">BLOGS / ARTICLES</a></li>
-                                    <li><a href="#!">NUTRITION RESOURCES </a></li>
+                                    <li><a href="{{route('website-resources')}}">NUTRITION RESOURCES </a></li>
                                 </ul>
                             </li>
                             {{--<li><a href="/">The Nutrition Corner</a></li>--}}

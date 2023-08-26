@@ -5,12 +5,21 @@
 
     <!-- metas -->
     <meta charset="utf-8">
-    <meta name="author" content="Website Design Templates" />
+    <meta name="author" content="Dhruvi" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="keywords" content="Dhruvi Chokshi- Nutritionist and Clinical Dietitian" />
+    <meta name="keywords" content="Dhruvi,Dhruvi Chokshi,Dhruvi Chokshi- Nutritionist and Clinical Dietitian, best nutritionist" />
     <meta name="description" content="Dhruvi Chokshi- Nutritionist and Clinical Dietitian" />
 
+    <meta property="og:description" content="Dhruvi Chokshi - Nutritionist and Clinical Dietitian">
+    <meta property="og:url" content="https://chokshidhruvi.com/">
+    <meta property="og:title" content="Dhruvi Chokshi- Nutritionist and Clinical Dietitian">
+    <meta property="og:type" content="Dhruvi Chokshi- Nutritionist and Clinical Dietitian">
+    <meta property="og:site_name" content="Dhruvi Chokshi">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="canonical" href="https://chokshidhruvi.com/"/>
+    <meta name="robots" content="index, follow">
     <!-- title  -->
     <title>Dhruvi Chokshi- Nutritionist and Clinical Dietitian </title>
 

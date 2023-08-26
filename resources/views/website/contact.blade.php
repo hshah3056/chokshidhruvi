@@ -1,6 +1,6 @@
 @extends('website.template.layout')
 
-@section('page-title', 'Home')
+@section('page-title', 'Get In Touch')
 
 @section('page-content')
     <section class="page-title-section bg-img cover-background" data-overlay-dark="6" data-background="/website-assets/img/bg/bread_crumb_bg.jpg" style="background-image: url(/website-assets/img/bg/bread_crumb_bg.jpg);">
@@ -131,7 +131,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col-lg-5 bg-img cover-background theme-overlay" data-overlay-dark="9" data-background="website-assets/img/content/contact-image.jpg" style="background-image: url(website-assets/img/content/contact-image.jpg);">
+            <div class="col-lg-5 bg-img cover-background theme-overlay" data-overlay-dark="9">
                 <div class="p-1-9 p-lg-2-9 position-relative z-index-1 h-100">
                     <h2 class="mb-3 text-white">Get In Touch With Us.</h2>
                     <p></p>

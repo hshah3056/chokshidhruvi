@@ -408,7 +408,7 @@
                             </ul>
                         </div>
                     </div>
-                    <a href="javascript:void(0);" class="butn secondary">Learn More</a>
+                    {{--<a href="javascript:void(0);" class="butn secondary">Learn More</a>--}}
                 </div>
             </div>
             <div class="col-lg-6">
