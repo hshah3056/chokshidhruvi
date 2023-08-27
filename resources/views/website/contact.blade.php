@@ -41,7 +41,7 @@
                     <div>
                         <div class="section-heading-02 mb-1-9 mb-lg-2-9">
                             <div class="sub-title mb-3">
-                                <span class="text-secondary">Contact Us</span>
+                                <span class="text-secondary">Get A Quote</span>
                                 <div class="title-img">
                                     <img src="/website-assets/img/logos/favicon.png" alt="...">
                                 </div>
@@ -148,7 +148,7 @@
                                     <!-- Begin Text input element -->
                                     <div class="col-md-6">
                                         <div class="quform-element form-group">
-                                            <label for="phone">Contact Number</label>
+                                            <label for="phone">Contact Number  <span class="quform-required">*</span></label>
                                             <div class="quform-input">
                                                 <input class="form-control" id="phone" type="number" name="contact_number" placeholder="Enter Your number here" required>
                                             </div>

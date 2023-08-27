@@ -33,7 +33,7 @@
         <div class="container">
             <div class="section-heading">
                 <span class="text-secondary title-font display-25 display-md-23 d-block mb-1">Change your life</span>
-                <h2>All our<span class="fw-bolder"> success stories</span></h2>
+                {{--<h2>All our<span class="fw-bolder"> success stories</span></h2>--}}
                 {{--<p class="mb-0 w-md-80 w-lg-70 w-xl-50 mx-auto">We connect buyers and sellers of natural, organic, environmentally sound products. We find the best suppliers and makers of natural and organic products.</p>--}}
             </div>
             <div class="row justify-content-center g-0 mb-2-9">
