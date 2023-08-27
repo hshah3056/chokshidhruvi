@@ -30,7 +30,7 @@
         <div class="container">
             <div class="section-heading">
                 {{--<span class="text-secondary title-font display-25 display-md-23 d-block mb-1">Our pricing plans</span>--}}
-                <h1 class="display-17 display-sm-11 display-md-9 display-lg-8 display-xl-4 mb-lg-3 letter-spacing-4 title-font text-green font-weight-900"><span class="fw-bolder">Comming Soon</span></h1>
+                <h1 class="display-17 display-sm-11 display-md-9 display-lg-8 display-xl-4 mb-lg-3 letter-spacing-4 title-font text-green font-weight-900"><span class="fw-bolder">Coming Soon!!</span></h1>
             </div>
         </div>
     </section>

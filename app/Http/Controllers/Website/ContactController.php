@@ -12,6 +12,23 @@ class ContactController extends Controller
 {
     public function index(Request $request){
         if($request->isMethod('post')){
+            $request->validate([
+                'name'=>'required',
+                'email'=>'required',
+                'subject'=>'required',
+                'contact_number' => 'required|regex:/^[987][0-9]{9}$/|digits:10',
+                'package'=>'required',
+                'message'=>'required'
+            ],[
+                'name'=>'required',
+                'email'=>'required',
+                'subject'=>'required',
+                'contact.required' => 'Mobile Number is Required',
+                'contact.regex' => 'Invalid Mobile Number',
+                'contact.digits' => 'Mobile Number must be 10 digits',
+                'package'=>'required',
+                'message'=>'required'
+            ]);
             Contact::create([
                 'name' => $request->name,
                 'email' => $request->email,
