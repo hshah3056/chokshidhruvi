@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta name="author" content="DhruviChoksi">
     <title>Login to {{ config('project.brand') }} Account</title>
-    <link rel="apple-touch-icon" href="/admin-assets/images/company/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/admin-assets/images/company/favicon.png">
+    <link rel="apple-touch-icon" href="/website-assets/img/logos/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/website-assets/img/logos/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700" rel="stylesheet">
     <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">
     <!-- BEGIN CSS-->
@@ -37,7 +37,9 @@
                             <div class="card-header border-0">
                                 <div class="text-center mb-1">
                                     {{--<img src="/admin-assets/images/company/logo.png" alt="{{ config('project.brand') }}" width="180px">--}}
-                                    <p style="font-size: x-large; font-style: normal; font-weight: 600;">Hello there!</p> <span style="font-size: 8rem;color:#fff;background-image:-webkit-gradient(linear,left top,right top,from(#514a9d),to(#24c6dc));border-radius: 20px;" class="la la-hands-helping"></span>
+                                    {{--<p style="font-size: x-large; font-style: normal; font-weight: 600;">Hello there!</p>--}}
+                                    {{--<span style="font-size: 8rem;color:#fff;background-image:-webkit-gradient(linear,left top,right top,from(#514a9d),to(#24c6dc));border-radius: 20px;" class="la la-hands-helping"></span>--}}
+                                    <img src="/website-assets/img/logos/logo.png" width="250px" alt="">
                                 </div>
                                 @if(session('error'))
                                     <div class="alert alert-danger">{{ session('error') }}</div>
@@ -74,7 +76,7 @@
                                             <div class="col-md-6 col-12 float-sm-left text-center text-sm-right"><a href="{{ route('admin-forget-password') }}" class="card-link">Forgot Password?</a></div>
                                         </div>
                                         <div class="form-group text-center">
-                                            <button type="submit" class="btn round btn-block btn-glow btn-bg-gradient-x-purple-red col-12 mr-1 mb-1">Login</button>
+                                            <button type="submit" class="btn round btn-block btn-glow btn-bg-gradient-x-orange-yellow col-12 mr-1 mb-1">Login</button>
                                         </div>
 
                                     </form>

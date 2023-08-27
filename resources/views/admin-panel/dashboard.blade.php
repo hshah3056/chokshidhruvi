@@ -14,7 +14,7 @@
     <div class="content-body">
         <div class="row match-height">
             <div class="col-xl-4 col-lg-4 col-md-4">
-                <a href="#!">
+                <a href="{{route('contact-data')}}">
                     <div class="card">
                         <div class="card-content">
                             <div class="card-body">

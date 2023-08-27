@@ -7,7 +7,8 @@
             <li class="nav-item d-md-none">
                 <a class="nav-link open-navbar-container" data-toggle="collapse" data-target="#navbar-mobile"><i class="la la-ellipsis-v"></i></a>
             </li>
-            <span style="font-size: 4rem;color:#fff;margin-left: 5rem;background-image:-webkit-gradient(linear,left top,right top,from(#514a9d),to(#24c6dc));border-radius: 20px;" class="la la-hands-helping"></span>
+            {{--<span style="font-size: 4rem;color:#fff;margin-left: 5rem;background-image:-webkit-gradient(linear,left top,right top,from(#514a9d),to(#24c6dc));border-radius: 20px;" class="la la-hands-helping"></span>--}}
+            <img src="/website-assets/img/logos/favicon.jpg" style="margin-left: 2rem;" alt="">
         </ul>
     </div>
     @php
@@ -52,7 +53,7 @@
     </div>
 </nav>
 
-<div class="header-navbar navbar-expand-sm navbar navbar-horizontal navbar-fixed navbar-dark navbar-without-dd-arrow navbar-shadow" role="navigation" data-menu="menu-wrapper">
+<div class="header-navbar navbar-expand-sm navbar bg-gradient-x-orange-yellow navbar-fixed navbar-dark navbar-without-dd-arrow navbar-shadow" role="navigation" data-menu="menu-wrapper">
     <div class="navbar-container main-menu-content" data-menu="menu-container">
         <ul class="nav navbar-nav"  data-menu="menu-navigation">
             <li class="nav-item">
@@ -63,6 +64,26 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('contact-data') }}">
                     <i class="ft-user"></i><span>Resources</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);">
+                    <i class="ft-file-text"></i><span>Blog Manager</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);">
+                    <i class="ft-image"></i><span>Home Banner</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);">
+                    <i class="ft-package"></i><span>Packages</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);">
+                    <i class="ft-book"></i><span>Stories</span>
                 </a>
             </li>
             {{--<li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="javascript:void(0)" data-toggle="dropdown">--}}

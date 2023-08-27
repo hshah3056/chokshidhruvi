@@ -4,10 +4,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <meta name="author" content="Tymk Softwares">
+    <meta name="author" content="Dhruvi shah">
     <title>@yield('title') - Admin Management</title>
-    <link rel="apple-touch-icon" href="/admin-assets/images/company/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/admin-assets/images/company/favicon.png">
+    <link rel="apple-touch-icon" href="/website-assets/img/logos/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/website-assets/img/logos/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/admin-assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/admin-assets/fonts/feather/style.min.css?v1">
@@ -26,10 +26,15 @@
     <link href="/admin-assets/plugins/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet" type="text/css" media="screen">
     <link href="/admin-assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" media="screen">
     <link rel="stylesheet" href="/admin-assets/css/chat.css">
+    <style>
+        .bg-green{
+            background-color: #55892e;
+        }
+    </style>
     @yield('import-css')
     @yield('page-css')
 </head>
-<body class="horizontal-layout horizontal-menu 2-columns  menu-expanded" data-open="hover" data-menu="horizontal-menu" data-color="bg-blue" data-col="2-columns">
+<body class="horizontal-layout horizontal-menu 2-columns menu-expanded" data-open="hover" data-menu="horizontal-menu" data-color="bg-green" data-col="2-columns">
 
 @include('admin-panel.template.header')
 {{--@include('admin-panel.template.left-sidebar')--}}
