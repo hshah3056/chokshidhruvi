@@ -4,7 +4,7 @@
 
 @section('page-content')
 
-    <section class="page-title-section bg-img cover-background" data-overlay-dark="6" data-background="/website-assets/img/bg/bread_crumb_bg.jpg" style="background-image: url(/website-assets/img/bg/bg-03.jpg);">
+    <section class="page-title-section bg-img cover-background" data-overlay-dark="6" data-background="/website-assets/img/bg/bread_crumb_bg.jpg" style="background-image: url(/website-assets/img/bg/bread_crumb_bg.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

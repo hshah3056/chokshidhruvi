@@ -5557,4 +5557,9 @@ footer > .container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 9999
 }
+@media (min-width:440px) and (max-width:767px) {
+    .responsive-banner{
+        width: 80%;
+    }
+}
 
