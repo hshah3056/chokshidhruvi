@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('subject');
+            $table->string('place');
             $table->string('contact_number');
             $table->enum('package',['1','3','6','12']);
             $table->string('message');

@@ -46,7 +46,7 @@
                                     <img src="/website-assets/img/logos/favicon.png" alt="...">
                                 </div>
                             </div>
-                            <h2 class="h1 fw-bolder mb-0">Need a Nutrition For Your Health? Get In Touch With Us.</h2>
+                            <h2 class="h1 fw-bolder mb-0">Get In Touch With Us.</h2>
                         </div>
                         <div class="p-1-9 p-sm-2-9 bg-secondary contact-form border-radius-10">
                             {{--<div class="d-flex align-items-center mb-4">--}}
@@ -135,11 +135,20 @@
                                     <!-- End Text input element -->
 
                                     <!-- Begin Text input element -->
+                                    {{--<div class="col-md-6">--}}
+                                        {{--<div class="quform-element form-group quform-select-replaced">--}}
+                                            {{--<label for="concern">Your concerns <span class="quform-required">*</span></label>--}}
+                                            {{--<div class="quform-input">--}}
+                                                {{--<input class="form-control" id="concern" type="text" name="subject" placeholder="Your Concern here" required>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+
                                     <div class="col-md-6">
                                         <div class="quform-element form-group quform-select-replaced">
-                                            <label for="concern">Your concerns <span class="quform-required">*</span></label>
+                                            <label for="place">Place <span class="quform-required">*</span></label>
                                             <div class="quform-input">
-                                                <input class="form-control" id="concern" type="text" name="subject" placeholder="Your Concern here" required>
+                                                <input class="form-control" id="place" type="text" name="place" placeholder="Your place here" required>
                                             </div>
                                         </div>
                                     </div>
