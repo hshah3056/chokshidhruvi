@@ -21,6 +21,7 @@
                                     <th>Email</th>
                                     <th>Place</th>
                                     <th>contact_number</th>
+                                    <th>Selected Package</th>
                                     <th>message</th>
                                     <th>Submit At</th>
                                 </tr>
@@ -34,6 +35,7 @@
                                         <td>{{ $data->email }}</td>
                                         <td>{{ $data->place }}</td>
                                         <td>{{ $data->contact_number }}</td>
+                                        <td>{{ $data->package }} Months</td>
                                         <td>{{$data->message}}</td>
                                         <td>{{$data->created_at}}</td>
                                     </tr>
