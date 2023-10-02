@@ -14,6 +14,11 @@ Route::group(['namespace' => 'Admin'], function () {
             Route::get('forgot-password', [\App\Http\Controllers\Admin\LoginController::class, 'forgetPassword'])->name('admin-forget-password');
             Route::post('forgot-password', [\App\Http\Controllers\Admin\LoginController::class, 'forgetPassword'])->name('admin-forget-password');
 
+//        Route::post('client-lists', [\App\Http\Controllers\Admin\ClientController::class, 'index'])->name('admin-client-list');
+        Route::post('client-lists', [\App\Http\Controllers\Admin\ClientController::class, 'index'])->name('admin-client-list');
+
+
+
             Route::get('logout', [\App\Http\Controllers\Admin\LoginController::class, 'logout'])->name('admin-logout');
     });
 });

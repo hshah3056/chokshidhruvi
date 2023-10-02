@@ -67,6 +67,11 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="{{ route('admin-client-list') }}">
+                    <i class="ft-user"></i><span>Our Clients</span>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="javascript:void(0);">
                     <i class="ft-file-text"></i><span>Blog Manager</span>
                 </a>
