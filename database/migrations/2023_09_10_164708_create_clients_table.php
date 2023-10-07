@@ -18,11 +18,13 @@ return new class extends Migration
             $table->string('name');
             $table->string('client_id');
             $table->string('contact_no');
+            $table->string('birth_date');
             $table->string('address');
-            $table->string('email');
+            $table->string('email_id');
             $table->integer('country_id');
             $table->integer('state_id');
-            $table->integer('city');
+            $table->integer('pin_code');
+            $table->string('city');
             $table->text('concern');
             $table->enum('package',['1','3','6','12']);
             $table->tinyInteger('gender')->comment('1:Male,2:Fe-male');

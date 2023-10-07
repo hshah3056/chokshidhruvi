@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('countries', function (Blueprint $table) {
             $table->id();
             $table->string('name', 100);
+            $table->string('continent')->nullable();
             $table->tinyInteger('status')->comment('1: Active, 2: Inactive');
             $table->timestamps();
         });

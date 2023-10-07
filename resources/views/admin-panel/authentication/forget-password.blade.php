@@ -60,7 +60,7 @@
                                     <form class="form-horizontal" action="" method="post" novalidate>
                                         {{ csrf_field() }}
                                         <fieldset class="form-group position-relative has-icon-left">
-                                            <input type="text" class="form-control round" name="employee_id" placeholder="Your Employee Id" value="{{ old('employee_id') }}" required>
+                                            <input type="text" class="form-control round" name="client_id" placeholder="Your Employee Id" value="{{ old('client_id') }}" required>
                                             <div class="form-control-position">
                                                 <i class="ft-user"></i>
                                             </div>

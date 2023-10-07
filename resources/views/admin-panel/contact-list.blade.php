@@ -1,6 +1,6 @@
 @extends('admin-panel.template.layout')
 
-@section('title', 'Dashboard')
+@section('title', 'Resources')
 
 @section('content')
     <div class="content-header row">

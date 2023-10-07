@@ -8,8 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Client extends Model
 {
     use HasFactory;
+    protected $primaryKey = 'id';
     protected $fillable = [
-      'name','client_id','contact_no','address','email','country_id','state_id','city','concern','package','gender'
+      'name','client_id','contact_no','birth_date','address','email_id','country_id','state_id','pin_code','city','concern','package','gender'
     ];
 
     public function countryMaster()
