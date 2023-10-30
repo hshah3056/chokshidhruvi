@@ -21,6 +21,7 @@
                                     <th>Blog Name</th>
                                     <th>Text</th>
                                     <th>Images</th>
+                                    <th>Status</th>
                                     <th>Action</th>
                                 </tr>
                                 </thead>
@@ -37,7 +38,14 @@
                                                 @endforeach
                                         </td>
                                         <td>
-                                            <a href="{{route('admin-blog-edit',['id' => $blog->id])}}" class="btn btn-sm btn-success">Edit</a>
+                                            @if($blog->status == 1)
+                                                <span class="badge badge-success"> Active </span>
+                                            @else
+                                                <span class="badge badge-danger"> In-Active </span>
+                                            @endif
+                                        </td>
+                                        <td>
+                                            <a href="{{route('admin-blog-edit',['id' => $blog->id])}}" class="btn btn-sm btn-bg-gradient-x-blue-cyan">Edit</a>
                                         </td>
                                     </tr>
                                 @endforeach
