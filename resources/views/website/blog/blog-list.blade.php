@@ -42,25 +42,34 @@
                     {{--<span data-filter='.fitness'>Fitness</span>--}}
                 {{--</div>--}}
             {{--</div>--}}
+
             <div class="row portfolio-gallery-isotope mt-n2-9">
-                <div class="col-md-6 col-lg-4 mt-2-9 nutritonist" data-src="website-assets/img/portfolio/nourishing-minds.jpeg" data-sub-html="<h4 class='text-white'>NOURISHING MINDS</h4><p>Nutritonist</p>">
-                    <div class="portfolio-style-01">
-                        <div class="position-relative">
-                            <div class="position-relative">
-                                <img src="website-assets/img/portfolio/nourishing-minds.jpeg" alt="...">
-                                <div class="portfolio-overlay">
-                                    <div class="portfolio-icon-box">
-                                        <a href="#!"><i class="ti-zoom-in"></i></a>
+                @if(!empty($blogs))
+                    @foreach($blogs as $blog)
+                        <div class="col-md-6 col-lg-4 mt-2-9 nutritonist" data-src="uploads/{{json_decode($blog->images)[0]}}" data-sub-html="<h4 class='text-white'></h4><p>Nutritonist</p>">
+                            <div class="portfolio-style-01">
+                                <div class="position-relative" style="border: #2a6d04 solid 3px;border-radius: 11px;">
+                                    <div class="position-relative">
+                                        <img src="uploads/{{json_decode($blog->images)[0]}}" alt="...">
+                                        <div class="portfolio-overlay">
+                                            <div class="portfolio-icon-box">
+                                                <a href="#!"><i class="ti-zoom-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-content">
+                                        {{--<h6 class="text-muted font-weight-800">{{$blog->name}}</h6>--}}
+                                        <h4 class="mb-0"><a href="{{route('website-blog-detail',[$blog->id])}}" class="portfolio-link">{{$blog->name}}</a></h4>
                                     </div>
                                 </div>
                             </div>
-                            <div class="portfolio-content">
-                                <h6 class="text-muted font-weight-500">Nervousness, Anxiety & Depression Mechanism</h6>
-                                <h4 class="mb-0"><a href="{{route('website-blog-detail')}}" class="portfolio-link">Nourishing Minds</a></h4>
-                            </div>
                         </div>
-                    </div>
-                </div>
+                    @endforeach
+                @else
+                    <h3>Comming Soon</h3>
+                    @endif
+
+
                 {{--<div class="col-md-6 col-lg-4 mt-2-9 weightloss" data-src="website-assets/img/portfolio/portfolio-02.jpg" data-sub-html="<h4 class='text-white'>Pilates Exercises #02</h4><p>Weight Loss</p>">--}}
                     {{--<div class="portfolio-style-01">--}}
                         {{--<div class="position-relative">--}}

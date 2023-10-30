@@ -35,56 +35,49 @@
 
                     <article class="card card-style6">
                         <div class="image-box">
-                            <img src="website-assets/img/portfolio/nourishing-minds.jpeg" class="border-radius-10" alt="...">
-                            <div class="blog-date"><span>29</span> july 2023</div>
+                            <img src="/uploads/{{json_decode($blogDetails->images)[0]}}" class="border-radius-10" alt="...">
+                            <div class="blog-date"><span>{{\Carbon\Carbon::parse($blogDetails->created_at)->format('d')}}</span> {{\Carbon\Carbon::parse($blogDetails->created_at)->format('M Y')}}</div>
                         </div>
                         <div class="card-body border-radius-10">
                             <ul class="list-unstyled mb-3">
                                 <li class="d-inline-block me-3 text-capitalize"><i class="ti-user me-2 text-primary"></i><a href="#!">Dhruvi</a></li>
-                                {{--<li class="d-inline-block"><i class="ti-comment me-2 text-primary align-middle"></i> 06 Comment</li>--}}
                             </ul>
-                            <h1 class="mb-4"> "Nourishing Minds: Combating Nervousness, Anxiety & Depression Through Nutrition"</h1>
-                            <p class="w-lg-95">
-                                🌱Nervousness: Nervousness is often triggered by the body's fight-or-flight response, releasing stress hormones like adrenaline. This can lead to feelings of restlessness and unease.
-                            </p>
-                            <p class="w-lg-95">
-                                🌱Anxiety: Anxiety is an exaggerated response to perceived threats. The brain's amygdala, responsible for processing emotions, becomes overactive, triggering fear and worry responses.
-                            </p>
-                            <p class="w-lg-95">
-                                🌱Depression: Depression involves chemical imbalances in the brain, particularly with neurotransmitters like serotonin and dopamine. Low levels of these chemicals can contribute to feelings of sadness and hopelessness.
-                            </p>
-                            <h2>Nutrition and Eating Patterns: </h2>
-                            <p>i. During these emotional challenges, eating patterns may be disturbed due to stress, emotional eating, or loss of appetite.</p>
-                            <p>ii. Unhealthy eating habits, such as consuming excessive sugar and caffeine, can further impact mood and worsen anxiety.</p>
-                            <p>iii. Poor nutrition can contribute to deficiencies in essential nutrients, affecting brain function and emotional well-being.</p>
+                            {{--<h1 class="mb-4"> "Nourishing Minds: Combating Nervousness, Anxiety & Depression Through Nutrition"</h1>--}}
+                            {{--<p class="w-lg-95">--}}
+                                {{--🌱Nervousness: Nervousness is often triggered by the body's fight-or-flight response, releasing stress hormones like adrenaline. This can lead to feelings of restlessness and unease.--}}
+                            {{--</p>--}}
+                            {{--<p class="w-lg-95">--}}
+                                {{--🌱Anxiety: Anxiety is an exaggerated response to perceived threats. The brain's amygdala, responsible for processing emotions, becomes overactive, triggering fear and worry responses.--}}
+                            {{--</p>--}}
+                            {{--<p class="w-lg-95">--}}
+                                {{--🌱Depression: Depression involves chemical imbalances in the brain, particularly with neurotransmitters like serotonin and dopamine. Low levels of these chemicals can contribute to feelings of sadness and hopelessness.--}}
+                            {{--</p>--}}
+                            {{--<h2>Nutrition and Eating Patterns: </h2>--}}
+                            {{--<p>i. During these emotional challenges, eating patterns may be disturbed due to stress, emotional eating, or loss of appetite.</p>--}}
+                            {{--<p>ii. Unhealthy eating habits, such as consuming excessive sugar and caffeine, can further impact mood and worsen anxiety.</p>--}}
+                            {{--<p>iii. Poor nutrition can contribute to deficiencies in essential nutrients, affecting brain function and emotional well-being.</p>--}}
 
-                            <h2>Nutrition Guidelines :</h2>
-                            <p>
-                                <b>Hydration</b> : Stay hydrated to support cognitive function and emotional stability.</p>
-                            <p>
-                                <b>Whole Foods</b> : Choose nutrient-rich foods like fruits, vegetables, whole grains, and lean proteins for overall well-being.
-                            </p>
-                            <p>
-                                <b>Omega-3 Fatty Acids</b>: Include sources like fatty fish, chia seeds, and walnuts to support brain health.</p>
-                            <p>
-                                <b>Limit Sugar & Caffeine</b>: Reduce sugary and caffeinated drinks to avoid exacerbating anxiety and mood swings.</p>
-                            <p>
-                                <b>Mindful Eating</b>: Practice mindful eating to be aware of emotional triggers and promote a healthy relationship with food.</p>
-                            <p>
-                                <b>Balanced Meals</b>: Aim for balanced meals with the right mix of carbs, proteins, and healthy fats to stabilize energy levels and mood.</p>
-                            <p>
-                                 <b>Regular Meals:</b><p>Eat at regular intervals to maintain stable blood sugar levels and emotional balance.</p>
-                            </p>
+                            {{--<h2>Nutrition Guidelines :</h2>--}}
+                            {{--<p>--}}
+                                {{--<b>Hydration</b> : Stay hydrated to support cognitive function and emotional stability.</p>--}}
+                            {{--<p>--}}
+                                {{--<b>Whole Foods</b> : Choose nutrient-rich foods like fruits, vegetables, whole grains, and lean proteins for overall well-being.--}}
+                            {{--</p>--}}
+                            {{--<p>--}}
+                                {{--<b>Omega-3 Fatty Acids</b>: Include sources like fatty fish, chia seeds, and walnuts to support brain health.</p>--}}
+                            {{--<p>--}}
+                                {{--<b>Limit Sugar & Caffeine</b>: Reduce sugary and caffeinated drinks to avoid exacerbating anxiety and mood swings.</p>--}}
+                            {{--<p>--}}
+                                {{--<b>Mindful Eating</b>: Practice mindful eating to be aware of emotional triggers and promote a healthy relationship with food.</p>--}}
+                            {{--<p>--}}
+                                {{--<b>Balanced Meals</b>: Aim for balanced meals with the right mix of carbs, proteins, and healthy fats to stabilize energy levels and mood.</p>--}}
+                            {{--<p>--}}
+                                 {{--<b>Regular Meals:</b><p>Eat at regular intervals to maintain stable blood sugar levels and emotional balance.</p>--}}
+                            {{--</p>--}}
+                            {!! $blogDetails->text !!}
                         </div>
 
                     </article>
-
-
-
-
-
-
-
                 </div>
             </div>
             <!-- end blog-details left -->
@@ -93,23 +86,44 @@
             <div class="col-lg-4">
                 <div class="blog-sidebar">
 
+                    @if(!empty($latestBlogs))
 
-
-                    <div class="widget widget-post">
-                        <h4 class="widget-title title-font text-secondary">Latest Posts</h4>
-                        <div class="widget-body">
-                            <div class="d-flex align-items-center">
-                                {{--<div class="flex-shrink-0">--}}
+                        <div class="widget widget-post">
+                            <h4 class="widget-title title-font text-secondary">Latest Posts</h4>
+                            <div class="widget-body">
+                                @foreach($latestBlogs as $latestBlog)
+                                    <div class="d-flex align-items-center mt-2">
+                                        <div class="flex-shrink-0" style="width: 80px">
+                                            <img src="/uploads/{{json_decode($latestBlog->images)[0]}}" class="border-radius-5" alt="...">
+                                        </div>
+                                        <div class="flex-grow-1 ms-4">
+                                            <span class="display-30 text-muted d-block mb-2 font-weight-500"><i class="far fa-calendar-check me-2 text-primary"></i>{{\Carbon\Carbon::parse($blogDetails->created_at)->format('M, d Y')}}</span>
+                                            <h6 class="mb-0"><a href="{{route('website-blog-detail',[$latestBlog->id])}}">{{$latestBlog->name}}</a></h6>
+                                            {{--<h6 class="mb-0"><a href="#!"> Coming Soon </a></h6>--}}
+                                        </div>
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                    @else
+                        <div class="widget widget-post">
+                            <h4 class="widget-title title-font text-secondary">Latest Posts</h4>
+                            <div class="widget-body">
+                                <div class="d-flex align-items-center">
+                                    {{--<div class="flex-shrink-0">--}}
                                     {{--<img src="website-assets/img/blog/blog-thumb-03.jpg" class="border-radius-5" alt="...">--}}
-                                {{--</div>--}}
-                                <div class="flex-grow-1 ms-4">
-                                    {{--<span class="display-30 text-muted d-block mb-2 font-weight-500"><i class="far fa-calendar-check me-2 text-primary"></i>Jan 15, 2022</span>--}}
-                                    {{--<h6 class="mb-0"><a href="#!"> Things about diet you have to experience it yourself.</a></h6>--}}
-                                    <h6 class="mb-0"><a href="#!"> Coming Soon </a></h6>
+                                    {{--</div>--}}
+                                    <div class="flex-grow-1 ms-4">
+                                        {{--<span class="display-30 text-muted d-block mb-2 font-weight-500"><i class="far fa-calendar-check me-2 text-primary"></i>Jan 15, 2022</span>--}}
+                                        {{--<h6 class="mb-0"><a href="#!"> Things about diet you have to experience it yourself.</a></h6>--}}
+                                        <h6 class="mb-0"><a href="#!"> Coming Soon </a></h6>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    @endif
+
+
 
 
                     <div class="bg-secondary border-radius-10">

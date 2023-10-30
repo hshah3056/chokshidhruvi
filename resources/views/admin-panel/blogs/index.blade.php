@@ -31,7 +31,32 @@
                                     <tr>
                                         <td>{{ $index+1 }}</td>
                                         <td>{{ $blog->name }}</td>
-                                        <td>{{ $blog->text }}</td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModal_{{$index}}"> Click here  </button>
+                                            <div class="modal fade" id="exampleModal_{{$index}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body" style="width: 50%">
+                                                            <div class="container-fluid">
+                                                                <div class="row">
+                                                                    {{--<div class="col-md-4">.col-md-4</div>--}}
+                                                                    <div class="col-md-12">{!! $blog->text  !!}</div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
                                         <td width="50%">
                                             @foreach(json_decode($blog->images) as $image)
                                                 <img width="30%" src="/uploads/{{$image}}" alt="">

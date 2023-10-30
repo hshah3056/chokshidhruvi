@@ -26,6 +26,8 @@
     <link href="/admin-assets/plugins/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet" type="text/css" media="screen">
     <link href="/admin-assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" media="screen">
     <link rel="stylesheet" href="/admin-assets/css/chat.css">
+    <link rel="stylesheet" href="/admin-assets/plugins/jquery.filer/css/jquery.filer.css">
+    <link href="/admin-assets/plugins/summernote/summernote.css" rel="stylesheet"/>
     <style>
         .bg-green{
             background-color: #55892e;
@@ -62,6 +64,8 @@
 <script src="/admin-assets/plugins/moment/moment.js" type="text/javascript"></script>
 <script src="/admin-assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" type="text/javascript"></script>
 <script src="/admin-assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script src="/admin-assets/plugins/jquery.filer/js/jquery.filer.min.js"></script>
+<script src="/admin-assets/plugins/summernote/summernote.min.js"></script>
 @yield('import-javascript')
 @yield('page-javascript')
 <script>

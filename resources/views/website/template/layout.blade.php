@@ -30,16 +30,16 @@
     <link rel="apple-touch-icon" sizes="114x114" href="/website-assets/img/logos/apple-touch-icon-114x114.png" />
 
     <!-- plugins -->
-    <link rel="stylesheet" href="./website-assets/css/plugins.css">
+    <link rel="stylesheet" href="/website-assets/css/plugins.css">
 
     <!-- search css -->
-    <link rel="stylesheet" href="./website-assets/search/search.css">
+    <link rel="stylesheet" href="/website-assets/search/search.css">
 
     <!-- quform css -->
-    <link rel="stylesheet" href="./website-assets/quform/css/base.css">
+    <link rel="stylesheet" href="/website-assets/quform/css/base.css">
 
     <!-- theme core css -->
-    <link href="./website-assets/css/styles.css" rel="stylesheet">
+    <link href="/website-assets/css/styles.css" rel="stylesheet">
 
     @yield('page-css')
     @yield('import-css')
