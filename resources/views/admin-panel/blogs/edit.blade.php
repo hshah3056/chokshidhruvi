@@ -52,7 +52,7 @@
                                     {{--</div>--}}
                                     <div class="col-md-12 summernote-wrapper">
                                         <label>Blog Content</label>
-                                        <textarea id="summernote" rows="15" name="blog_content"></textarea>
+                                        <textarea id="summernote" rows="15" name="blog_content">{{$blogDetails->text}}</textarea>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
