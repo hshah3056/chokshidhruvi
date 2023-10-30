@@ -128,7 +128,7 @@
 
                     <div class="bg-secondary border-radius-10">
                         <div class="banner-wrapper">
-                            <img src="website-assets/img/content/service-banner.jpg" class="border-top-radius-10" alt="...">
+                            <img src="/website-assets/img/content/service-banner.jpg" class="border-top-radius-10" alt="...">
                             <div class="p-2-2 position-relative border-bottom-radius-10 bg-secondary text-center">
                                 <div class="icon-boxs">
                                     <i class="ti-headphone-alt text-white"></i>
