@@ -72,7 +72,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);">
+                <a class="nav-link" href="{{url('blog-data-list')}}">
                     <i class="ft-file-text"></i><span>Blog Manager</span>
                 </a>
             </li>

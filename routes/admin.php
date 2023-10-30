@@ -1,5 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\BlogController;
 
 Route::group(['namespace' => 'Admin'], function () {
 
@@ -22,8 +23,13 @@ Route::group(['namespace' => 'Admin'], function () {
         Route::post('client-lists-update/{id}', [\App\Http\Controllers\Admin\ClientController::class, 'update'])->name('admin-client-update');
 
 
+//        blogs
+        Route::get('blog-data-list/edit/{id}', [BlogController::class, 'edit'])->name('admin-blog-edit');
+//        Route::get('blog-create', [BlogController::class, 'create'])->name('admin-blog-create');
+//        Route::get('blog-destroy', [BlogController::class, 'destroy'])->name('admin-blog-destroy');
 
-            Route::get('logout', [\App\Http\Controllers\Admin\LoginController::class, 'logout'])->name('admin-logout');
-
+        Route::get('logout', [\App\Http\Controllers\Admin\LoginController::class, 'logout'])->name('admin-logout');
     });
 });
+
+Route::resource('blog-data-list', BlogController::class);
