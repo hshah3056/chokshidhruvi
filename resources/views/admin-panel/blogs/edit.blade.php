@@ -44,11 +44,15 @@
                                             <input type="text" class="form-control square" name="name" placeholder="Enter Your Blog Title" value="{{$blogDetails->name}}">
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label>Blog Content</label>
-                                            <textarea type="text" rows="15" name="blog_content" class="form-control square" placeholder="Enter Your Blog Content here"  value="">{{$blogDetails->text}}</textarea>
-                                        </div>
+                                    {{--<div class="col-md-12">--}}
+                                        {{--<div class="form-group">--}}
+                                            {{--<label>Blog Content</label>--}}
+                                            {{--<textarea type="text" rows="15" name="blog_content" class="form-control square" placeholder="Enter Your Blog Content here"  value="">{{$blogDetails->text}}</textarea>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    <div class="col-md-12 summernote-wrapper">
+                                        <label>Blog Content</label>
+                                        <textarea id="summernote" rows="15" name="blog_content"></textarea>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -84,3 +88,36 @@
         </form>
     </div>
 @stop
+@section('import-javascript')
+    <script type="application/javascript">
+        //    jQuery(document).ready(function () {
+        //
+        //        $('.summernote').summernote({
+        //            height: 250,
+        //            minHeight: null,
+        //            maxHeight: null,
+        //            focus: false,
+        //            toolbar: [['style', ['bold', 'italic', 'underline', 'clear']], ['fontsize', ['fontsize']], ['para', ['ul', 'ol', 'paragraph']], ['color', ['color']]],
+        //            onfocus: function (e) {
+        //                $('body').addClass('overlay-disabled');
+        //            },
+        //            onblur: function (e) {
+        //                $('body').removeClass('overlay-disabled');
+        //            },
+        //
+        //        });
+        //
+        //        $('.inline-editor').summernote({
+        //            airMode: true
+        //        });
+        //    });
+        $(document).ready(function() {
+            $('#summernote').summernote({
+                height: 250,
+                minHeight: null,
+                maxHeight: null,
+                focus: false
+            });
+        });
+    </script>
+@endsection
